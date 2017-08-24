@@ -8,9 +8,11 @@
     <meta content="telephone=no" name="format-detection">
 	<meta name="applicable-device" content="pc,mobile">
 	<link rel="stylesheet" type="text/css" href="css/reset.css"/>
-
+	<link rel="stylesheet" href="css/swiper.min.css">
 	<link href="css/pc_common.css" type="text/css" rel="stylesheet" media="screen and (min-width:769px)">
 	<link href="css/phone_common.css" type="text/css" rel="stylesheet" media="screen and (max-width:768px)">
+	<link href="css/index_b_phone.css" type="text/css" rel="stylesheet" media="screen and (max-width:768px)">
+	<link rel="stylesheet" type="text/css" href="css/index_b.css" media="screen and (min-width:769px)">
 	<script src="js/jquery-1.11.3.min.js"></script>
 	<script type="text/javascript" src="js/mobile-util.js"></script>
 </head>
@@ -94,6 +96,7 @@
             </div>
             <div class="h_nav_box left">
             	<a href="#" class="h_select">绿色办公室</a>
+            	<ul class="h_ul"></ul>
             </div>   
             <!-- 翻译 -->
             <div class="h_language left clear">
@@ -115,17 +118,26 @@
 	</div>
 </div>
 <!-- 头部结束 -->
-  
 
-
-<!-- 轮播 nav starts -->
-<div class="nav_b">
+<!-- 轮播 banner starts -->
+<div class="banner_b">
 	<div class="swiper-container">
-      
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="images/index-img/banner-b (2).png">
+            </div>
+             <div class="swiper-slide">
+                <img src="images/index-img/banner-b (3).png">
+            </div>
+            <div class="swiper-slide"> <img src="images/index-img/banner-b (4).png"></div>
+            <div class="swiper-slide"> <img src="images/index-img/banner-b (5).png"></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
     </div>
 </div>
     
-<!-- 轮播nav ends -->
+<!-- 轮播banner ends -->
 
 
 <!-- 产品系列 starts -->
@@ -133,10 +145,30 @@
 	<div class="product_b_top">
 		<h3>云视频产品系列</h3>
 	</div>
-	<div class="product_b_list">
+	<div class="product_b_list clearfix"  id="product_b">
 		<div class="product_b_list_node">
-			<img src="images/index-img/product(1).png">
-			
+			<span></span>
+			<img src="images/index-img/product (1).png">
+			<p><a href="">BIZCONF VIDEO</a></p>	
+			<h4>视频会议</h4>
+		</div>
+		<div class="product_b_list_node">
+			<span></span>
+			<img src="images/index-img/product (2).png">
+			<p><a href="">BIZCONF AUDIO</a></p>	
+			<h4>电话会议</h4>
+		</div>
+		<div class="product_b_list_node">
+			<span></span>
+			<img src="images/index-img/product (3).png">
+			<p><a href="">BIZCONF STREAMING</a></p>
+			<h4>网络直播</h4>	
+		</div>
+		<div class="product_b_list_node">
+			<span></span>
+			<img src="images/index-img/product (4).png">
+			<p><a href="">BIZCONF WEB</a></p>
+			<h4>网络会议</h4>	
 		</div>
 		
 	</div>
@@ -145,20 +177,370 @@
 
 <!-- 产品系列 ends -->
 
+<!-- 解决方案 starts -->
+<!--pc starts 布局-->
+<div class="scheme_b">
+	<div class="scheme_b_left">
+	 	<div class="scheme_b_left_tit">
+	 		<h2>解决方案</h2>
+	 		<h3>BizConf Solutuins</h3>
+	 		<a href="">More ></a>
+	 	</div>
+	 	<div class="scheme_b_left_con">
+	 		<div class="scheme_b_left_con_show">
+	 			<span></span>
+	 			<p>全球化云视频会议解决方案</p>
+	 		</div>
+	 		<div>
+	 			<span></span>
+	 			<p>硬件拓展解决方案</p>
+	 		</div>
+	 		<div>
+	 			<span></span>
+	 			<p>医疗行业解决方案</p>
+	 		</div>
+	 		<div>
+	 			<span></span>
+	 			<p>金融行业解决方案</p>
+	 		</div>
+	 		<div>
+	 			<span></span>
+	 			<p>HR解决方案</p>
+	 		</div>
+	 	</div>
+		
+	</div>
+	<div class="scheme_b_right">
+		<div class="scheme_b_right_node scheme_b_right_show">
+			<div class="scheme_b_right_node_con">
+				<h3>全球化云会议视频解决中心</h3>
+				<p>会畅利用专业云会议服务平台的优势，为三胞集团“全球总结表彰大会“提供了一整套高清视频会议服务解决方案，刷新了视频会议服务的世界纪录：实现全球9万人同时在线。跟据客户需求，会畅在世界各地设立了49个分会场，遍布中国内地、港澳，覆盖伦敦、洛杉矶、阿布扎比等7个海外城市，成就了目前参与人数最多的同步视频直播活动。</p>
+				<a href="">More ></a>
+			</div>
+		</div>
+		<div class="scheme_b_right_node">
+			<div class="scheme_b_right_node_con">
+				<h3>硬件拓展解决方案</h3>
+				<p>日本最大的活性乳酸菌饮品制造公司从2001年开始进入中国大陆，经过十多年已发展成为一家极具市场影响力的品牌企业。目前，该企业在全国31个地区拥有office，企业内部必须拥有一套完善的内部沟通协作平台来满足企业运营需求。针对该企业一系列亟待解决的问题以及所期望实现的效果，会畅通讯提出了“混合云视频会议”解决方案，一手打造了该企业中国的整体视频会议解决方案部署。</p>
+				<a href="">More ></a>
+			</div>
+		</div>
+		<div class="scheme_b_right_node">
+			<div class="scheme_b_right_node_con">
+				<h3>医疗行业解决方案</h3>
+				<p>我国医疗服务市场规模巨大，然而医疗机构削减成本的压力不减反增。医疗机构面临越发严峻的业务挑战：资源分布不均且使用效率低，信息共享不畅，产品推广困难。BizConf提供医疗机构所需要的多方通信云服务解决方案，聚焦成本控制、效益产出这个主题，给企业提供一整套远程医疗和效率管理的解决方案。</p>
+				<a href="">More ></a>
+			</div>
+		</div>
+		<div class="scheme_b_right_node">
+			<div class="scheme_b_right_node_con">
+				<h3>金融行业解决方案</h3>
+				<p>银行、证券、基金、保险等金融机构竞争形势严峻，加之一些庞大金融巨头拥有庞大分支机构，使得金融企业沟通困难，信息保密性无法保证。金融企业需要更安全，更人性化的解决方案。BizConf根据长期服务于全球领先的券商、投行，累积了丰富的实施经验，为客户提供了一套高效、安全、便捷的整体解决方案。</p>
+				<a href="">More ></a>
+			</div>
+		</div>
+		<div class="scheme_b_right_node">
+			<div class="scheme_b_right_node_con">
+				<h3>HR解决方案</h3>
+				<p>随着人才全球化趋势明显，企业用工需求的增加，越来越多的企业考虑使用灵活用工模式，企业需要在招聘和培训环节不断提高效率、规避风险、节省成本。急需一套贴合企业实际需求的整体解决方。BizConf提供HR所需要的多方通信云服务解决方案，聚焦会议沟通成本、质量增效这个主题，给企业提供一整套人力资源远程招聘和培训的解决方案。</p>
+				<a href="">More ></a>
+			</div>
+		</div>
+	</div>
+</div>
+<!--pc ends 布局-->
+<!--phone starts-->
+<div class="scheme_b_phone">
+	<div class="scheme_b_phone_con">
+		<div class="scheme_b_phone_con_tit">
+			<h2>解决方案</h2>
+			<a href="">More ></a>
+		</div>
+		<div class="scheme_b_phone_con_nav">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+	</div>
+	<div class="scheme_b_phone_con_show">
+		<div class="scheme_b_phone_con_show_hide">
+			<h3>全球化云会议视频解决中心</h3>
+			<p>会畅利用专业云会议服务平台的优势，为三胞集团“全球总结表彰大会“提供了一整套高清视频会议服务解决方案，刷新了视频会议服务的世界纪录：实现全球9万人同时在线。跟据客户需求，会畅在世界各地设立了49个分会场，遍布中国内地、港澳，覆盖伦敦、洛杉矶、阿布扎比等7个海外城市，成就了目前参与人数最多的同步视频直播活动。</p>
+			<a href="">More ></a>
+		</div>
+		<div>
+			<h3>硬件拓展解决方案</h3>
+			<p>日本最大的活性乳酸菌饮品制造公司从2001年开始进入中国大陆，经过十多年已发展成为一家极具市场影响力的品牌企业。目前，该企业在全国31个地区拥有office，企业内部必须拥有一套完善的内部沟通协作平台来满足企业运营需求。针对该企业一系列亟待解决的问题以及所期望实现的效果，会畅通讯提出了“混合云视频会议”解决方案，一手打造了该企业中国的整体视频会议解决方案部署。</p>
+			<a href="">More ></a>
+		</div>
+		<div>
+			<h3>医疗行业解决方案</h3>
+			<p>我国医疗服务市场规模巨大，然而医疗机构削减成本的压力不减反增。医疗机构面临越发严峻的业务挑战：资源分布不均且使用效率低，信息共享不畅，产品推广困难。BizConf提供医疗机构所需要的多方通信云服务解决方案，聚焦成本控制、效益产出这个主题，给企业提供一整套远程医疗和效率管理的解决方案。</p>
+			<a href="">More ></a>
+		</div>
+		<div>
+			<h3>金融行业解决方案</h3>
+			<p>银行、证券、基金、保险等金融机构竞争形势严峻，加之一些庞大金融巨头拥有庞大分支机构，使得金融企业沟通困难，信息保密性无法保证。金融企业需要更安全，更人性化的解决方案。BizConf根据长期服务于全球领先的券商、投行，累积了丰富的实施经验，为客户提供了一套高效、安全、便捷的整体解决方案。</p>
+			<a href="">More ></a>
+	    </div>
+		<div>
+			<h3>HR解决方案</h3>
+			<p>随着人才全球化趋势明显，企业用工需求的增加，越来越多的企业考虑使用灵活用工模式，企业需要在招聘和培训环节不断提高效率、规避风险、节省成本。急需一套贴合企业实际需求的整体解决方。BizConf提供HR所需要的多方通信云服务解决方案，聚焦会议沟通成本、质量增效这个主题，给企业提供一整套人力资源远程招聘和培训的解决方案。</p>
+			<a href="">More ></a>
+		</div>
+
+	</div>
+</div>
+
+<!--phone ends-->
+<!-- 解决方案 ends -->
+
+
+<!--热点新闻  news starts-->
+<div class="news_b">
+	<div class="news_b_tit">
+		<h3>热点新闻<span>/News</span></h3>
+		<a href="">More ></a>
+	</div>
+	<div class="news_b_con_left">
+		<img src="images/index-img/news_b_one.png" alt="news" class="news_b_con_left_img"/>
+		<img src="images/index-img/news_b_two.png" alt="news"/>
+		<img src="images/index-img/news_b_three.jpg" alt="news"/>
+	</div>
+	<div class="news_b_con_right">
+		<div class="news_b_con_right_node clearfix">
+			<div class="news_b_con_right_node_con news_b_con_right_node_cont news_b_con_right_node_contt">
+				<h3>领军云视频万亿市场新潮流，会畅通讯创业板上市</h3>
+				<p>领军云视频万亿市场新潮流，会畅通讯创业板成功上市。 会畅通讯，证券代码：300578 会畅通讯董事长黄元</p>
+				<h4>
+					<span><img   src="images/index-img/new_b_lsit.png" alt="a"/>媒体报道</span>
+					<a>阅读详细></a>
+				</h4>
+			</div>
+			<div class="news_b_con_right_node_show">
+					<p>
+						<img  class="l-lj l_show" src="images/index-img/icon_add_b.png" alt="click"/>
+						<span class="l_span l_span_show">05-12</span>
+					</p>
+			</div>
+		</div>
+		<div class="news_b_con_right_node clearfix">
+			<div class="news_b_con_right_node_con news_b_con_right_node_cont">
+				<h3>云视频会议引领IT变革 下一个万亿级蓝海市场</h3>
+				<p>高效沟通 云视频会议打破时空限制 IT行业正发生深刻变革，基于云技术的IT服务解决方案正成为企业的首选，</p>
+				<h4>
+					<span><img src="images/index-img/new_b_lsit.png" alt="a"/>媒体报道</span>
+					<a>阅读详细></a>
+				</h4>
+			</div>
+			<div class="news_b_con_right_node_show">
+				<p><img class="l-lj"src="images/index-img/icon_add_b.png" alt="click"/>
+					<span  class="l_span">03-09</span></p>
+			</div>
+		</div>
+		<div class="news_b_con_right_node clearfix">
+			<div class="news_b_con_right_node_con news_b_con_right_node_cont">
+				<h3>云服务取代传统视频会议，是时候了吗？</h3>
+				<p>根据知名咨询机构IDC发布的《全球第二季度视频会议市场报告》，视频会议硬件设备的整体营收难止颓势，相</p>
+				<h4>
+					<span><img src="images/index-img/new_b_lsit.png" alt="a"/>媒体报道</span>
+					<a>阅读详细></a>
+				</h4>
+			</div>
+			<div class="news_b_con_right_node_show">
+				<p><img  class="l-lj"  src="images/index-img/icon_add_b.png" alt="click"/>
+					<span  class="l_span">11-25</span></p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--phone new start-->
+<div class="new_b_phone">
+	<div class="new_b_phone_tit">
+		<h3>热点新闻</h3>
+		<a href="">More ></a>
+	</div>
+	<div class="new_b_phone_con">
+		<a href="">
+			<h3>全国销售足不出户畅享沟通，巨型药企</h3>
+			<p>成立于1849年，是全国最大的研发型制药公司,研发产品包括从一起临床到注册等各个阶段共118个项目，超过60个产品的销售</p>
+		</a>
+		<a href="">
+			<h3>云视频会议引领IT变革 下一个万亿级蓝海市场</h3>
+			<p>高效沟通 云视频会议打破时空限制 IT行业正发生深刻变革，基于云技术的IT服务解决方案正成为企业的首选，</p>
+		</a>
+		<a href="">
+			<h3>云服务取代传统视频会议，是时候了吗？</h3>
+			<p>根据知名咨询机构IDC发布的《全球第二季度视频会议市场报告》，视频会议硬件设备的整体营收难止颓势，</p>
+		</a>
+	</div>
+</div>
+<!--phone new end-->
+<!--热点新闻  news ends-->
+
+<!--成功案列 starts-->
+<div class="works_b">
+	<div class="works_b_tit">
+		<h3>成功案例</h3>
+		<a href="">More ></a>
+	</div>
+	<div class="works_b_con">
+		<div class="works_b_con_node">
+			<span></span>
+			<a href="">
+				<h3>全国销售足不出户畅享沟通，巨型药企</h3>
+				<p>成立于1849年，是全国最大的研发型制药公司,研发产品包括从一起临床到注册等各个阶段共118个项目，超过60个产品的销售</p>
+			</a>
+		</div>
+		<div class="works_b_con_node">
+			<span></span>
+			<a href="">
+				<h3>线上营销创举，全球知名计量企业</h3>
+				<p>世界电子测试工具生产、分销和服务的领导者，成立于1948年，已授权的分销商遍布世界100多个国家，雇员约2400人。总部...</p>
+			</a>
+		</div>
+		<div class="works_b_con_node">
+			<span></span>
+			<a href="">
+				<h3>PC生产企业网络会议成功案例</h3>
+				<p>PC巨头广覆盖、低成本轻松实现4-6级店商培训</p>
+			</a>
+		</div>
+		<div class="works_b_con_node">
+			<span></span>
+			<a href="">
+				<h3>PC巨头广覆盖、低成本轻松实现</h3>
+				<p>全球领先的PC生产企业之一，总部设在中国和美国跨国科技公司，研发、生产和销售笔记本电脑、一体机、台式电脑、服务器、手机、...</p>
+			</a>
+		</div>
+		<div class="works_b_con_node">
+			<span></span>
+			<a href="">
+				<h3>会畅多方通信3.0咨询服务</h3>
+				<p>世界巨型药企，导入多方通信3.0咨询服务短期节约3000万美金</p>
+			</a>
+		</div>
+		<div class="works_b_con_node">
+			<span></span>
+			<a href="">
+				<h3>全球最大电气电子公司视频会议成功案例</h3>
+				<p>全球最大电气电子公司，低碳绿色经营遍布全球</p>
+			</a>
+		</div>
+		<div class="works_b_con_node">
+			<span></span>
+			<a href="">
+				<h3>全国销售足不出户畅享沟通</h3>
+				<p>成立于1849年，是全国最大的研发型制药公司,研发产品包括从一起临床到注册等各个阶段共118个项目，超过60个产品的销售</p>
+			</a>
+		</div>
+		<div class="works_b_con_node">
+			<span></span>
+			<a href="">
+				<h3>全国销售足不出户畅享沟通</h3>
+				<p>成立于1849年，是全国最大的研发型制药公司,研发产品包括从一起临床到注册等各个阶段共118个项目，超过60个产品的销售</p>
+			</a>
+		</div>
+	</div>
+</div>
+
+
+<!--phone start-->
+<div class="works_b_phone">
+	<div class="works_b_phone_tit">
+		<h3>成功案例</h3>
+		<a href="">More ></a>
+	</div>
+	<div class="works_b_phone_con clearfix" id="works_b_phone_con">
+		<div class="works_b_phone_con_node">
+			<img src="images/index-img/work_b (1).jpg" alt=""/>
+			<a href="">
+				<h3>全国销售足不出户畅享沟</h3>
+				<p>成立于1849年，是全国最大的研发型制药公司...</p>
+			</a>
+		</div>
+		<div class="works_b_phone_con_node">
+			<img src="images/index-img/work_b (2).jpg" alt=""/>
+			<a href="">
+				<h3>线上营销创举，全球知名</h3>
+				<p>世界电子测试工具生产、分销和服务的领导者...</p>
+			</a>
+		</div>
+		<div class="works_b_phone_con_node">
+			<img src="images/index-img/work_b (3).jpg" alt=""/>
+			<a href="">
+				<h3>PC生产企业网络会议成功案例</h3>
+				<p>PC巨头广覆盖、低成本轻松实现4-6级店商培训</p>
+			</a>
+		</div>
+		<div class="works_b_phone_con_node">
+			<img src="images/index-img/work_b (4).jpg" alt=""/>
+			<a href="">
+				<h3>PC巨头广覆盖、低成本轻</h3>
+				<p>全球领先的PC生产企业之一，总部设在中国...</p>
+			</a>
+		</div>
+		<div class="works_b_phone_con_node">
+			<img src="images/index-img/work_b (5).jpg" alt=""/>
+			<a href="">
+				<h3>会畅多方通信3.0咨询服</h3>
+				<p>世界巨型药企，导入多方通信3.0咨询服务短期节约3000万美金</p>
+			</a>
+		</div>
+		<div class="works_b_phone_con_node">
+			<img src="images/index-img/work_b (6).jpg" alt=""/>
+			<a href="">
+				<h3>全球最大电气电子公司视频</h3>
+				<p>全球最大电气电子公司，低碳绿色经营遍布全球</p>
+			</a>
+		</div>
+		<div class="works_b_phone_con_node">
+			<img src="images/index-img/work_b (7).jpg" alt=""/>
+			<a href="">
+				<h3>全国销售足不出户畅享</h3>
+				<p>成立于1849年，是全国最大的研发型制药公司,</p>
+			</a>
+		</div>
+		<div class="works_b_phone_con_node">
+			<img src="images/index-img/work_b (8).jpg" alt=""/>
+			<a href="">
+				<h3>全国销售足不出户畅享沟</h3>
+				<p>成立于1849年，是全国最大的研发型制药公司</p>
+			</a>
+		</div>
+	</div>
+</div>
+<!--phone end-->
+
+
+<!--成功案例  ends-->
+
+
+<!--体验平台 starts-->
+<div class="terrace_b">
+	<h3>会畅通讯云服务体验平台</h3>
+	<p>shrine communications cloud services platform experience</p>
+	<a href="">DOWNLOAD</a>
+</div>
+<!--体验平台  ends-->
+
 
 <!-- side column-nav    _stars -->
 <div class="column_b">
 	<div class="column_b_wx">
-		<div class="column_b_wx_con"><p>在线咨询</p></div>
+		<div class="column_b_wx_con column_b_show"><p>在线咨询</p></div>
 	</div>
 	<div class="column_b_phone">
-		<div class="column_b_phone_con"><p>400-062-1818</p></div>
+		<div class="column_b_phone_con column_b_show"><p>400-062-1818</p></div>
 	</div>
 	<div class="column_b_search">
-		<div class="column_b_search_con"><p>在线试用</p></div>
+		<div class="column_b_search_con column_b_show"><p>在线试用</p></div>
 	</div>
 	<div class="column_b_top" id="column_b_top">
-		<div class="column_b_top_con"></div>
+		<div class="column_b_top_con .column_b_show"></div>
 	</div>
 	<div class="column_b_tel">
 		<a href="#" class="icon"><img src="images/icon.png"></a>
@@ -198,7 +580,6 @@
 <!--leave_t end  -->
 
 <!-- 尾部开始 -->
-<div class='div'></div>
 <div class='footer'>
 	<div class='footerNav'>
 		<div>
@@ -350,6 +731,10 @@
 	</p>
 </div>
 <!-- 尾部结束 -->
+<script src="js/swiper.min.js"></script>
 <script type="text/javascript" src="js/test_common.js"></script>
+<script type="text/javascript" src="js/index_b.js"></script>
+
+
 </body>
 </html>
