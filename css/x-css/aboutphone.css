@@ -1,0 +1,13 @@
+/*banner*/
+.h_banner{
+	width:100%;
+	height:240px;
+	background:url('../../images/x-img/h_banner.jpg') no-repeat center;
+	background-size:cover;
+}
+.h_box{
+	padding:0 20px;
+}
+.h_bannav,.h_pp{
+	display:none;
+}
