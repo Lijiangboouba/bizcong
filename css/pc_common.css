@@ -30,17 +30,19 @@ body{
     width: 865px;
 }
 .h_nav_box{
-    padding:0 16px;
+    /*padding:0 16px;*/
     position:relative;
+    box-sizing: border-box;
 }
 .h_select{
     display: inline-block;
-    height: 100%;
+    padding:0 16px;
     font:14px/80px '黑体';
     color: #999;
     width:100%;
+    box-sizing: border-box;
 }
-.h_nav_box:hover{  
+.h_nav_box:hover .h_select{  
     background:#246FEE;
 }
 .h_nav_box:hover .h_select{
