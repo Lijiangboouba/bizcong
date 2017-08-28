@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="app">
 <head lang="en">
     <meta charset="UTF-8">
     <title></title>
@@ -7,21 +7,23 @@
     <meta content="yes" name=" apple-mobile-web-app-capable">
     <meta content="telephone=no" name="format-detection">
     <meta name="applicable-device" content="pc,mobile">
-    <link rel="stylesheet" type="text/css" href="../css/reset.css"/>
-    <link rel="stylesheet" href="../css/swiper.min.css">
-    <link href="../css/pc_common.css" type="text/css" rel="stylesheet" media="screen and (min-width:769px)">
-    <link href="../css/phone_common.css" type="text/css" rel="stylesheet" media="screen and (max-width:768px)">
-    <link href="../css/css_b/works.css" type="text/css" rel="stylesheet" media="screen and (min-width:769px)">
-    <link href="../css/css_b/works_phone.css" type="text/css" rel="stylesheet" media="screen and (max-width:768px)">
-    <script src="../js/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="../js/mobile-util.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../css/reset.css"/>
+    <link rel="stylesheet" href="../../css/swiper.min.css">
+    <link href="../../css/pc_common.css" type="text/css" rel="stylesheet" media="screen and (min-width:769px)">
+    <link href="../../css/phone_common.css" type="text/css" rel="stylesheet" media="screen and (max-width:768px)">
+    <link href="../../css/css_b/works.css" type="text/css" rel="stylesheet" media="screen and (min-width:769px)">
+    <link href="../../css/css_b/works_phone.css" type="text/css" rel="stylesheet" media="screen and (max-width:768px)">
+    <script src="../../js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="../../js/mobile-util.js"></script>
+    <script src="../../js/angular.min.js"></script>
+    <script src="../../js/angular-ui-router.js"></script>
 </head>
 <body>
 <!-- header头部 -->
 <div class="h_header">
     <div class="h_box clearfix">
         <div class="h_img left">
-            <a href="#"><img src="../images/logo.png" alt="会畅通讯" class="h_meeting"></a>
+            <a href="#"><img src="../../images/logo.png" alt="会畅通讯" class="h_meeting"></a>
         </div>
         <!-- 导航 -->
         <div class="h_nav left clearfix">
@@ -106,7 +108,7 @@
         </div>
         <!-- 导航结束 	 -->
         <div class="right h_tel">
-            <a href="#" title="400-062-1818"><img src="../images/tel.png" alt="会畅通讯咨询电话"></a>
+            <a href="#" title="400-062-1818"><img src="../../images/tel.png" alt="会畅通讯咨询电话"></a>
         </div>
         <!-- 头部按钮 -->
         <div class="h_pic right">
@@ -122,103 +124,19 @@
 <!--banner_b  starts-->
 <div class="banner_b">
     <div class="banner_b_con clearfix ">
-        <div class="banner_b_con_node banner_b_con_right"><a href="">全部案列</a></div>
-        <div><a href="">视频会议</a></div>
-        <div><a href="">电话会议</a></div>
-        <div><a href="">网络直播</a></div>
-        <div><a href="">网络会议</a></div>
+        <div class="banner_b_con_node banner_b_con_right"><a ui-sref="all_b">全部案列</a></div>
+        <div><a ui-sref="video_b">视频会议</a></div>
+        <div><a ui-sref="phone_b">电话会议</a></div>
+        <div><a ui-sref="live_b">网络直播</a></div>
+        <div><a ui-sref="meeting">网络会议</a></div>
     </div>
 </div>
 <!--banner_b ends-->
 
 
 <!--list start-->
-<div class="list_b">
-    <div class="list_b_tit">
-        <p>
-            <a href="">首页</a>>
-            <a href="">成功案例</a>>
-            <a href="">全部案例</a>
-        </p>
-    </div>
-    <div class="list_b_con">
-        <div  class="list_b_con_center">
-            <!-- 1-->
-            <div  class="list_b_con_node">
-                <a>
-                    <img src="../images/b_img/list_one.jpg" alt="a"/>
-                </a>
-                <div class="list_b_con_link">
-                    <a href="">
-                        <span></span>
-                        <h3>世界巨型药企，导入多方通信3.0咨询服务短期</h3>
-                        <p>这家在华投资最大的某全球性跨国制药的公司，其自上世纪八十年代就登陆中国， 经过在华30多年的发展，目前在中国共有1万多名员</p>
-                    </a>
-                </div>
-            </div>
+<div ui-view></div>
 
-            <!-- 1-->
-            <div  class="list_b_con_node">
-                <a>
-                    <img src="../images/b_img/list_three.jpg" alt="a"/>
-                </a>
-                <div class="list_b_con_link">
-                    <a href="">
-                        <span></span>
-                        <h3>全球最大电子保安产品制造商，商旅出差成本几乎为零</h3>
-                        <p>全世界最大及最富经验的电子保安系列产品制造商之一，在多元化技术和制造业方面占世界领导地位的跨国公司成立于1885年，销售额为</p>
-                    </a>
-                </div>
-            </div>
-            <!-- 1-->
-            <div  class="list_b_con_node">
-                <a>
-                    <img src="../images/b_img/list_two.jpg" alt="a"/>
-                </a>
-                <div class="list_b_con_link">
-                    <a href="">
-                        <span></span>
-                        <h3>50路现场视频互动，让3000名跨国高管“会”聚一堂</h3>
-                        <p>一家全球领先的酿酒制造商，同时也全球五大消费品公司之一，旗下经营着300多个品牌，业务遍及全球24个国家，仅在中国</p>
-                    </a>
-                </div>
-            </div>
-            <!-- 1-->
-            <div  class="list_b_con_node">
-                <a>
-                    <img src="../images/b_img/list_three.jpg" alt="a"/>
-                </a>
-                <div class="list_b_con_link">
-                    <a href="">
-                        <span></span>
-                        <h3>世界巨型药企，导入多方通信3.0咨询服务短期</h3>
-                        <p>这家在华投资最大的某全球性跨国制药的公司，其自上世纪八十年代就登陆中国， 经过在华30多年的发展，目前在中国共有1万多名员</p>
-                    </a>
-                </div>
-            </div>
-            <!-- 1-->
-            <div  class="list_b_con_node">
-                <a>
-                    <img src="../images/b_img/list_one.jpg" alt="a"/>
-                </a>
-                <div class="list_b_con_link">
-                    <a href="">
-                        <span></span>
-                        <h3>世界巨型药企，导入多方通信3.0咨询服务短期</h3>
-                        <p>这家在华投资最大的某全球性跨国制药的公司，其自上世纪八十年代就登陆中国， 经过在华30多年的发展，目前在中国共有1万多名员</p>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="list_b_nav">
-        <p><</p>
-        <span class="list_b_nav_show">1</span>
-        <span>2</span>
-        <p>></p>
-    </div>
-
-</div>
 <!--list end-->
 
 
@@ -238,7 +156,7 @@
         <div class="column_b_top_con .column_b_show"></div>
     </div>
     <div class="column_b_tel">
-        <a href="#" class="icon"><img src="../images/icon.png"></a>
+        <a href="#" class="icon"><img src="../../images/icon.png"></a>
         <p class="online"><a href="#">在线咨询</a></p>
     </div>
 </div>
@@ -408,16 +326,16 @@
             <div class='share'>
                 <a href="javascript:;" class='WX right'>
                     <div class="WXbox">
-                        <img src="../images/WXewm.png">
+                        <img src="../../images/WXewm.png">
                     </div>
                 </a>
                 <a href="javascript:;" class='WB right'></a>
             </div>
         </div>
         <div class="mask">
-            <span class='FooterClose'><img src="../images/WXclose.png"></span>
+            <span class='FooterClose'><img src="../../images/WXclose.png"></span>
             <h3>会畅通讯官方账号</h3>
-            <img src="../images/WXerm2.jpg">
+            <img src="../../images/WXerm2.jpg">
             <p>打开微信，点击底部的“发现”，使用“扫一扫”即可关注会畅通讯</p>
         </div>
     </div>
@@ -426,9 +344,9 @@
     </p>
 </div>
 <!-- 尾部结束 -->
-<script type="text/javascript" src="../js/test_common.js"></script>
-<script type="text/javascript" src="../js/scroll_b.js"></script>
-<script src="../js/js_b/works.js"></script>
-<script src="../js/js_b/work_list.js"></script>
+<script type="text/javascript" src="../../js/test_common.js"></script>
+<script type="text/javascript" src="../../js/scroll_b.js"></script>
+
+<script src="../../js/js_b/router_b.js"></script>
 </body>
 </html>
