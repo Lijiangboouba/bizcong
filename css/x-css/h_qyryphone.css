@@ -1,0 +1,166 @@
+/*banner*/
+.h_banner{
+	width:100%;
+	height:240px;
+	background:url('../../images/x-img/h_banner.jpg') no-repeat center;
+	background-size:cover;
+}
+/*banner结束*/
+/*定宽*/
+.h_box{
+	padding:0 20px;
+}
+.h_bannav,.h_pp{
+	display:none;
+}
+/*主体部分*/
+.h_main{
+	background:#f2f2f5;
+	padding-top:40px;
+}
+.h_contact{
+	height:150px;
+}
+.h_contactLeft{
+	width:100%;
+	height:100%;
+	background:#246fee;
+	box-sizing:border-box;
+}
+.h_event{
+	height: 100%;
+    width: 100%;
+    padding-top: 55px;
+    padding-left: 35px;
+	box-sizing:border-box;
+}
+.h_contactLeft h3{
+	display:none;
+}
+.h_contactLeft h4{
+	color:#6692f1;
+	font-size:15px;
+}
+.h_contactRight{
+	border:2px solid #669ef0;
+	width:100%;
+	height:100%;
+	box-sizing:border-box;
+	position:relative;
+	margin-top:20px;	
+    padding: 10px 10px 50px 10px;
+}
+.h_cup{
+	position:absolute;
+	right:0;
+	top:200px;
+}
+.h_eventswiper{
+	width:100%;
+	height:100%;
+	position:relative;
+	padding: 0 10px;
+	box-sizing:border-box;
+}
+.h_eventSlice{
+    height: 100%;
+	display:none;
+}
+.h_eventSlice h3{
+	margin-bottom:10px;
+	font-size:17px;
+}
+.h_eventSlice a{
+	display: block;
+    font-size: 14px;
+    color: #666666;
+    line-height: 180%;
+    height: 25px;
+    width: 100%;
+    overflow: hidden;
+}
+.h_btn{
+	width:45px;
+	height:45px;
+	border-radius:100%;
+	border:2px solid #fff;
+	position:absolute;
+	top:65%;
+	background:url(../../images/x-img/icon-eventprev.png) no-repeat #246fee;
+	left:25%;
+}
+.h_btn2{
+	width:45px;
+	height:45px;
+	border-radius:100%;
+	border:2px solid #fff;
+	position:absolute;
+	top:65%;
+	background:url(../../images/x-img/icon-eventnext.png) no-repeat #246fee;
+	left:55%;
+}
+.h_bag{
+	background:url(../../images/x-img/event-bg.png) center center;
+	height:300px;
+	background-size:cover;
+}
+.h_contactBottom{
+	width:100%;
+}
+.h_pub{
+	width:100%;
+}
+.h_hy{
+	width: 100%;
+    padding-top: 30px;
+    margin-top:20px;
+    box-sizing:border-box;
+}
+.h_hy h3{
+	font-size: 18px;
+	text-align:center;
+    font-family: "思源黑体 CN ExtraLight","Microsoft YaHei","Arial","宋体";
+}
+.h_hy h4{
+	display:none;
+}
+.h_cen{
+	height: 112px;
+    background: url(../../images/x-img/icon-fleaft.png) no-repeat center;
+    margin-bottom: 10px;
+}
+.h_cen h3{
+	font-size: 18px;
+    color: #333333;
+    line-height:72px;
+    text-align: center;
+}
+.h_yearlist{
+    height: auto;
+    padding-bottom: 200px;
+    width:100%;
+    box-sizing:border-box;
+}
+.h_yearlistbox{
+    width: 100%;
+    height: 100%;
+    margin-bottom:30px;
+}
+.h_yearlistboxin{
+    background: #fff;
+    padding: 15px;
+    margin-right: 10px;
+    height: 100%;
+    box-sizing:border-box;   
+}
+.h_yearlistboxin h3{
+    font-size: 18px;
+    color: #d4d5d9;
+    margin-bottom: 10px;
+}
+.h_yearlistboxin p{
+    font-size: 14px;
+    color: #666666;
+    line-height: 180%;
+}
+/*主体部分结束*/

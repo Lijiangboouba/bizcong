@@ -1,0 +1,101 @@
+body{
+	overflow-x: hidden;
+}
+/*banner*/
+.h_banner{
+	width:100%;
+	height:400px;
+	background:url('../../images/x-img/h_banner.jpg') no-repeat center;
+}
+/*banner结束*/
+/*定宽*/
+.h_box{ 
+	width:1195px;
+	height:100%;
+	margin:0 auto;
+	position:relative;
+}
+/*导航*/
+.h_bannav{
+	width:100%;
+	height:55px;
+	position:absolute;
+	bottom:0px;
+	left:0;
+	background:#fff;
+	opacity:0.95;
+}
+/*tab*/
+.h_tab{
+	width:100%;
+	height:55px;
+	z-index:15;
+}
+.h_tab li{
+	width:14.285%;
+	float:left;
+	height:55px;
+	text-align:center;
+	border-right:1px solid #ccc;
+	box-sizing:border-box;
+}
+.h_tab li a{
+	font:12px/55px 'Microsoft YaHei';
+	color:#666;
+	/*padding:0 57px;*/
+	height:55px;
+	width:100%;
+	display:block;
+}
+.h_tab li a:hover{
+	color:#fff;
+	background:#2f3133;
+}
+
+
+#h_lx{
+	border-right:none;
+}
+/*tab结束*/
+.h_pp{
+	
+	height:47px;
+	width:100%;
+}
+.h_h{
+	float:right;
+}
+.h_pp a{
+	color:#999999;
+	font:11px/47px 'Microsoft YaHei';
+}
+/*main*/
+.h_mains{
+	padding: 45px 0 80px 0;
+	background-size:border-box;
+}
+.h_mainLeft{
+	width:717px;
+}
+.h_mainLeft h3{
+	font-size: 40px;
+    color: #666666;
+    margin-bottom: 45px;
+    font-family: "思源黑体 CN ExtraLight","Microsoft YaHei","Arial","宋体";
+}
+.h_mainLeft p {
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 30px;
+    line-height: 180%;
+}
+.h_mainLeft p i{
+	font-size:55px;
+}
+.h_mainLeft p > span {
+    display: block;
+    width: 90px;
+    height: 1px;
+    background: #666;
+}
+/*main结束*/

@@ -1,0 +1,70 @@
+/*banner*/
+.h_banner{
+	width:100%;
+	height:240px;
+	background:url('../../images/x-img/h_banner.jpg') no-repeat center;
+	background-size:cover;
+}
+.h_box{
+	padding:0 20px;
+}
+.h_bannav,.h_pp{
+	display:none;
+}
+/*banner结束*/
+/*main*/
+.h_one{
+	width:100%;
+	padding-top:30px;
+}
+.h_one p:first-child{
+	height:51px;
+	color:#333333;
+	font:15px 'Microsoft YaHei';
+}
+.h_one span{
+	color:#4a88f0;
+	font-size:38px;
+}
+.h_ua{
+	font-size: 13px;
+    color: #666666;
+    line-height: 180%;
+}
+.h_chart{
+	width:100%;
+	padding:80px 0;
+}
+.h_chart a img{
+	width:100%;
+	height:100%;
+}
+.h_charRight{
+	margin-bottom:15px;
+}
+
+.h_num{
+	width:100%;
+    margin-bottom: 30px;
+}
+.h_num>div{
+    border:1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+.h_numbers h3{
+    margin-bottom: 10px;
+    color: #4a88f0;
+    text-align:center;
+
+}
+.h_numbers p{
+	font-size: 14px;
+    color: #666;
+    text-align:center;
+    height: auto;
+    width: 100%;
+    margin-bottom:10px;
+}
+/*main结束*/

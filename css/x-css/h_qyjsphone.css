@@ -1,0 +1,129 @@
+
+.h_banner{
+	width:100%;
+	height:240px;
+	background:url('../../images/x-img/h_banner.jpg') no-repeat center;
+	background-size:cover;
+}
+.h_box{
+	padding:0 20px;
+}
+.h_bannav,.h_pp{
+	display:none;
+}
+.h_wl{
+	padding: 15px 0 0 0;
+}
+.h_introduce{
+	 padding-top: 30px;
+}
+.h_tieleb h3{
+	font-size: 18px;
+	text-align:center;
+	margin-bottom:10px;
+}
+.h_tieleb h4{
+	display:none;
+}
+.h_textcon p{
+	font-size: 13px;
+    color: #666666;
+    line-height: 180%;
+}
+.h_textcon p span{
+	font-size:27px;
+	color:#333;
+}
+.h_map-bg{
+    background: #f1f5fc;
+    padding:30px 0;
+    margin-top:10px;
+}
+.h_globalt {
+    margin-bottom: 15px;
+}
+.h_globalt h3{
+	font-size:18px;
+    color: #333333;
+    text-align: center;
+    font-family: "思源黑体 CN ExtraLight","Microsoft YaHei","Arial","宋体";
+}
+.h_globalt h4{
+	display:none;
+}
+.h_map{
+	background: url(../../images/x-img/map-bg.png) no-repeat center;
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+}
+.h_map1{
+	width: 50%;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    float:left;
+    box-sizing: border-box;
+}
+.h_map1 h3{
+	font-size: 20px;
+    color: #246fee;
+    text-align:center;
+}
+.h_map1 h4{
+	font-size: 13px;
+    color: #666666;
+    text-align:center;
+}
+
+.h_mas{
+	padding: 15px 0 0 0;
+}
+.h_mapp{
+    width: 100%;
+    height: 288px;
+    margin-top:10px;
+}
+.h_map2{
+	width: 50%;
+    margin-bottom: 10px;
+    padding: 0 10px;  
+    box-sizing:border-box;
+}
+.h_bb{
+	width:100%;
+}
+.h_bb img{
+	width:100%;
+	height:100%;
+}
+.h_bb h4{
+	text-align:center;
+	font-size:12px;
+}
+
+
+.h_mass{
+	background: #f1f5fc;
+    padding: 30px 0;
+}
+.h_asplit{
+	width:100%;
+	padding-bottom: 5s0px;
+}
+.h_asplitbox{
+	width: 50%;
+    float: left;
+    height: 100px;
+    padding: 10px;
+    box-sizing:border-box;
+}
+.h_asplitboxin{
+	border: 1px solid #ccc;
+    padding: 20px 10px;
+}
+.h_asplitboxin img{
+	display:block;
+	margin:0 auto;
+	width:103px;
+	height:23px;
+}
