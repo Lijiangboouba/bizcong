@@ -1,0 +1,505 @@
+
+body{
+    overflow-x: hidden;
+}
+
+.ServiceSupport{
+    width:100%;
+}
+.FZbanner{
+    width:100%;
+    height:240px;
+    /*margin-top:50px;*/
+    background: url('../../images/q_img/yq_FZPhoneBanner.jpg');
+    background-size: cover;
+}
+.FZbanner .box{
+    height:100%;
+    position: relative;
+}
+
+
+/*服务与支持 导航*/
+.FZnav{
+    display:none;
+}
+/*服务与支持 小导航*/
+.FZSmallNav{
+    display: none;
+}
+
+/*FZOneContentA*/
+.FZOneContentA{
+    height:auto;
+    margin:0 auto;
+    padding:0 15px;
+}
+.FZOneContentA h3{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 45px;
+    margin-bottom: 10px;
+}
+.FZOneContentA .smallTit{
+    text-align: center;
+    font-size: 13px;
+    color:#686868;
+    margin-bottom: 10px;
+}
+.FZOneContentA .servicetext p {
+    font-size: 13px;
+    color: #666666;
+    line-height: 180%;
+    margin-bottom: 15px;
+}
+.ContentAThree{
+    width:100%;
+    height:171px;
+    position: relative;
+}
+.ContentAThree>div{
+    width:33.33%;
+    height:100%;
+    float: left;
+}
+.ContentAThree>div span{
+    display: block;
+    width:45px;
+    height:45px;
+    background:url('../../images/q_img/FZThree.png') no-repeat;
+    margin:0 auto;
+}
+.ContentAThree>.AThree_b span{
+    background-position: 0px -46px;
+}
+.ContentAThree>.AThree_c span{
+    background-position: 0px -92px;
+}
+.ContentAThree>div .bigTit{
+    font-size: 14px;
+    color:#666666;
+    text-align: center;
+    margin-top: 10px;
+}
+.ContentAThree>div .smallTit{
+    width:80%;
+    margin:0 auto;
+    font-size: 11px;
+    color:#ccc;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/*FZOneContentB*/
+.FZOneContentB{
+    width:100%;
+    height:auto;
+    padding:15px 0;
+    background-color: #ecf4fc;
+}
+.FZOneContentB .ContentBCon{
+    padding:0 15px;
+    height:auto;
+    overflow:hidden;
+}
+.ContentBCon h3{
+    text-align: center;
+    color: #666666;
+    margin-bottom: 10px;
+}
+.ConFour{
+    width:100%;
+    height:auto;
+}
+.ConFour>div{
+    height:auto;
+    padding:20px 15px;
+    margin:0 auto;
+    margin-bottom: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    float: left;
+}
+.ConFour>div>p{
+    font-size: 33px;
+    color:#246fee;
+}
+.ConFour>div .detail .pOne{
+    font-size: 20px ;
+    color:#666;
+    margin-bottom:12px;
+}
+.ConFour>div .detail .pTwo{
+    font-size: 12px ;
+    color:#969799;
+    margin-bottom:10px;
+}
+.ConFour>div .detail .pThree{
+    font-size: 14px ;
+    color:#666;
+    margin-bottom:17px;
+}
+
+/*FZOneContentC*/
+.FZOneContentC{
+    height:auto;
+    margin:0 auto;
+    padding:15px 15px;
+    margin-bottom: 30px;
+}
+.FZOneContentC>h3{
+    text-align: center;
+    font-size: 19px;
+    color:#666;
+    margin-bottom: 10px;
+}
+.FZOneContentC>.smallTit{
+    width:100%;
+    margin-bottom: 15px;
+}
+.FZOneContentC>.smallTit p{
+    text-align: center;
+}
+.FZOneContentC>.smallTit p i{
+    font-size: 24px;
+    color:#246fee;
+}
+/*.FZOneContentC>.smallTit p span{
+    font-size:20px;
+}*/
+.FZOneContentC .ContentCUl{
+    width:274px;
+    height:20px;
+    margin:0 auto;
+}
+.ContentCUl li{
+    float: left;
+    position: relative;
+    padding-left: 15px;
+    margin-right: 27px;
+    text-align: center;
+}
+.ContentCUl .mrNone{
+    margin-right: 0px;
+}
+.ContentCUl li i{
+    position: absolute;
+    display: block;
+    width: 5px;
+    height: 5px;
+    background: #b3b3b3;
+    left: 0;
+    top: 50%;
+    margin-top: -2.5px;
+}
+.ContentCUl li span{
+    display: block;
+    font-size: 12px;
+    color:#666;
+}
+.FZOneContentC .imgFive img{
+    max-width: 100%;
+}
+
+
+/*售后服务标准*/
+/*FZTwoContentA*/
+.FZTwoContentA{
+    height: auto;
+    margin: 0  auto;
+    padding:45px 15px 0 15px;     
+}
+.FZTwoContentA .title h3{
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.FZTwoContentA .title p{
+    display: none;
+}
+.ContentALeft{
+    width:100%;
+    height: auto;
+    margin-bottom:15px;
+}
+.ALeftH3{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.ALeftOne{
+    font-size: 14px;
+    color:#666;
+    margin-bottom: 15px;
+    line-height: 180%;
+}
+.ALeftTwo{
+    font-size: 14px;
+    color:#666;
+    margin-bottom: 15px;
+    line-height: 180%;
+}
+.ContentARight{
+    width:100%;
+    height: auto;
+}
+.ContentARight img{
+    max-width:100%;
+    height: auto;
+}
+
+/*FZTwoContentC*/
+.FZTwoContentC{
+    height: auto;
+    margin: 0  auto;
+    padding:0 15px;   
+}
+.ContentCUl li{
+    position: relative;
+    padding-left: 10px;
+    height: 35px;
+    line-height: 35px;
+}
+.ContentCUl li i{
+    position: absolute;
+    left: 0;
+    width: 5px;
+    height: 5px;
+    background: #666666;
+    top: 50%;
+    margin-top: -2.5px;
+}
+.ContentCUl li span{
+    display: block;
+    font-size: 14px;
+    color:#666;
+}
+
+/*FZTwoContentB*/
+.FZTwoContentB{
+    margin:0 auto;
+    padding:0 15px;
+    margin-bottom: 15px;
+}
+
+
+/******************************************申请使用开始*****************************************/
+.Apply{
+    height:auto;
+    margin:0 auto;
+    padding:45px 15px 20px 15px;
+}
+.ApplyTit{
+    padding-bottom:10px;
+    border-bottom: 1px #eee solid;
+}
+.ApplyTit p{
+    text-align: center;
+}
+.ApplyTit .applyTitMin{
+    text-align: center;
+    font-size: 18px;
+    color:#333;
+}
+.ApplyTit .applyTitSmall{
+    display:none;
+}
+.ApplyTit .applyThree{
+    color:#333;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.ApplyTit .applyFour{
+    font-size: 14px;
+    color:#666;
+    text-align: left;
+}
+.applyFormCon{
+    padding-top:45px;
+}
+.applyFormEach{
+    width:100%;
+    height:auto;
+    float: left;    
+    margin-bottom: 10px;
+    height: 74px;
+}
+.applyFormEach p{
+    height:21px;
+    line-height: 21px;
+    margin-bottom: 10px;
+}
+.applyFormEach p span{
+    font-size: 13px;
+    color:#666;
+}
+.applyFormEach p i{
+    color:#f76719;
+}
+.applyFormEach input{
+    border: 1px solid #cccccc;
+    width:100%;
+    height: 35px;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #333;
+    vertical-align: middle;
+    -webkit-appearance: none;
+}
+.applyFormCon .code input{
+    width:50%;
+    float: left;
+}
+.applyFormCon .code img{
+    float: right;
+    display: inline-block;
+    width: 35%;
+    height: 35px;
+    cursor: pointer;
+}.applyFormCon .btn{
+    width:100%;
+    height:auto;
+    padding:10px 0;
+    margin-bottom: 25px;
+}
+.applyFormCon .btn input{
+    display: block;
+    width: 100%;
+    height: 35px;
+    margin:0 auto;
+    text-align: center;
+    color: #fff;
+    font-size: 1.4em;
+    border: none;
+    margin: 0 auto;
+    cursor: pointer;
+    opacity: .9;
+    background: #246fee;
+}
+.applyBottom,
+.applyBottom img{
+    width: 100%;
+    display:none;
+}
+
+/*申请使用结束*/
+
+/******************************************下载中心开始*****************************************/
+
+/*下载中心*/
+
+/******************************************投诉与建议开始*****************************************/
+.Suggeste{
+    width:100%;
+    /*height:810px;*/
+    background:#F2F3F7 ;
+    position: relative;
+}
+.Suggeste .BG{
+    display: none;
+}
+.Suggeste .box{
+    height: auto;
+    padding:0 15px;
+}
+.Suggeste .SuggesteCon{
+    padding: 45px 0;
+    width:100%;
+    height:auto;
+    position: relative;
+}
+.SuggesteCon .title{
+    margin-bottom: 10px;
+}
+.SuggesteCon .title h3{
+    text-align: center;
+    font-size: 18px;
+    color:#333;
+}
+.SuggesteCon .title p{
+    display: none;
+}
+/*投诉与建议内容*/
+.SuggesteConForm{
+    height: auto;
+    background: #fff;
+    border-radius: 10px;
+    padding:10px;
+}
+.SuggesteConForm form{
+    width:100%;
+}
+.formLeft{
+    width:100%;
+    height:auto;
+}
+.formLeftEach{
+    width:100%;
+    height:auto;
+    margin-bottom: 10px;
+}
+.formLeftEach p{
+    width: 100%;
+    text-align: left;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.formLeftEach p i {
+    color: #f76719;
+}
+.formLeftEach p span{
+    color:#666;
+}
+.formLeftEach input{
+    border: 1px solid #cccccc;
+    width: 100%;
+    height: 35px;
+    margin: 0;
+    font-size: 14px;
+}
+.formRight{
+    width:100%;
+    height:auto;
+}
+.formRightEach{
+    width:100%;
+    height: auto;
+}
+.formRightEach p{
+    text-align: left;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.formRightEach p i {
+    color: #f76719;
+}
+.formRightEach p span{
+    color:#666;
+}
+.formRightEach textarea{
+    height: 240px;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+.formBottom{
+    width:100%;
+    height:auto;
+    padding:10px 0;
+}
+.formBottom input{
+    display: block;
+    width: 100%;
+    height: 35px;
+    background: #246fee;
+    color: #fff;
+    font-size: 13px;
+    border: none;
+    padding: 5px 10px;
+    margin: 0 auto;
+    cursor: pointer;
+    opacity: .9;
+}
+/*投诉与建议结束*/
+
+
+
+

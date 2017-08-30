@@ -326,7 +326,7 @@ input,textarea {
 /*pc尾部footer*/
 .footer{
     width:100%;
-    height:288px;
+    /*height:288px;*/
     background: #222;
     position: relative;
 }
