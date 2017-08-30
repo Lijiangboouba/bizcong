@@ -1,0 +1,174 @@
+.tabdd{
+	background:#f2f2f5;
+}
+.h_box{ 
+	padding:0 20px;
+    /*margin:0 auto;*/
+}
+.h_pp{
+    display:none;
+}
+*{box-sizing: border-box;}
+.h_titletab h3{
+    font-size: 18px;
+    color: #333333;
+    text-align: center;
+    margin-bottom:10px;
+    font-family: "思源黑体 CN ExtraLight","Microsoft YaHei","Arial","宋体";
+}
+.h_titletab h4{
+    display:none;
+}
+.h_jointab{
+	margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+.h_jointab a:first-child{
+    border-left: 1px solid #ccc;
+    color: #fff;
+}
+.h_jointab a{
+    display: inline-block;
+    width:60px;
+    height:30px;
+    position: relative;
+    font-size: 12px;
+    color: #666666;
+    text-align: center;
+    line-height:30px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+.h_jointab a:first-child{
+   background: #246fee;    
+}
+.h_jointab a i{
+    position: absolute;
+    top: 100%;
+    display: block;
+    width: 10px;
+    height: 6px;
+    background: url(../../images/x-img/icon-sanjiao.png) no-repeat center;
+    left: 50%;
+    margin-left: -5px; 
+}
+.h_jointab .h_ya{
+	display: none;
+}
+.h_emplyeecon{
+    padding: 60px 0 80px 0;
+}
+.h_employein{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.h_employeincon{
+    box-shadow: 0px 0px 2px #666666; 
+    position: relative;
+    /*margin-top:20px;*/
+}
+.h_employeintop{
+    /*height: 150px;*/
+    background: #fff;
+    border-radius: 5px;
+    width: 100%;
+}
+.h_employeintopl{
+    padding:15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.h_employeintopl h3{
+    font-size: 20px;
+    color: #666666;
+    margin-bottom: 15px;
+}
+.h_employeintopl h4{
+    font-size: 15px;
+    color: #999999;
+}
+.h_employeintopr{
+    /*padding: 15px 50px;*/
+    width: 100%;
+    /*text-align: right;*/
+    box-sizing: border-box;
+}
+.h_employeintopr h3{
+    font-size: 15px;
+    color: #666;
+    padding-left:15px;
+}
+.h_employeintopr h3 i{
+    font-size: 36px;
+    color: #246fee;
+}
+.h_employeinmiddle{
+    height: auto;
+    background: #e9ecf3;
+}
+.h_employeinmiddlein{
+    padding: 15px 0;
+    height: 100%;
+}
+.h_ul9{
+    position: relative;
+    height: 100%;
+}
+.h_ul9 li{
+    float: left;
+    width:100%;
+    text-align: center;
+    padding:10px;
+}
+.h_ul9 li span {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: url(../../images/x-img/icon-join.png) no-repeat;
+}
+.h_ul9 li div {
+    height: 100%;
+    margin-left: 20px;
+}
+.h_ul9 li div h3 {
+    font-size: 15px;
+    color: #919aaf;
+    text-align: left;
+}
+.h_ul9 li div h4 {
+    font-size: 14px;
+    color: #43464d;
+    text-align: left;
+}
+.h_employeinbottom {
+    padding: 15px 0 15px 15px;
+    background: #fff;
+    width:100%;
+}
+.h_employeinbottom p{
+    font-size:12px;
+    color:#686868;
+}
+.h_bottombg{
+    height: 24px;
+    width: 100%;
+    background: url(../../images/x-img/buttom_bg.png) no-repeat center;
+}
+.h_emplyeecon .abtn {
+    display: block;
+    position: absolute;
+    width: 25px;
+    height: 45px;
+    background: url(../../images/x-img/btn-bg.png) no-repeat;
+    top: 50%;
+    margin-top: 0px;
+}
+.h_emplyeecon .abtnprv {
+    left: 10px;
+    background-position:0 -45px;
+}
+.h_emplyeecon .abtnnex {
+    right:10px;
+}

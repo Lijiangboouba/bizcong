@@ -1,0 +1,241 @@
+.h_box{ 
+	width:1195px;
+	margin:0 auto;
+    /*display:none;*/
+}
+*{box-sizing: border-box;}
+/*small nav*/
+.h_pp{
+	height:47px;
+	width:100%;
+}
+.h_h{
+	float:right;
+}
+.h_pp a{
+	color:#999999;
+	font:11px/47px 'Microsoft YaHei';
+}
+/*主体部分*/
+.h_stylecon{
+	height:300px;
+	overflow:hidden;
+}
+.h_sinLeft{
+	width:50%;
+	height:100%;
+	position:relative;
+	box-sizing: border-box;
+}
+.h_sinLefts{
+	height:300px;
+}
+.h_sinLeftss{
+	width:100%;
+	height:300px;
+}
+.h_sinLeft>span{
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition:.5s;
+    box-sizing: border-box;
+}
+.h_sinLeft span img{
+	max-width: 100%;
+    height: auto;
+    width: 100%;
+    vertical-align: top;
+    transition: all ease 0.3s;
+}
+.h_sinLeft span img:hover{
+    transform: scale(1.1);
+    transition: all ease 0.3s;
+}
+.h_sinRight{
+	width:50%;
+	height:100%;
+	position:relative;
+}
+.h_stoprle{
+    height: 100%;
+    background: #27abff;
+    position: relative;
+    padding: 45px 30px;
+    width:50%;
+    box-sizing: border-box;
+}
+.h_stoprlem{
+	padding: 90px 60px;
+}
+.h_stoprle h3{
+    font-size: 36px;
+    color: #fff
+}
+.h_stoprle i{
+    display: block;
+    height: 1px;
+    width: 35px;
+    background: #67c4ff;
+    margin: 20px 0;
+}
+.h_stoprle h4{
+    font-size:20px;
+    color: #fff;
+}
+.h_stoprle span{
+	display:block;
+    position: absolute;
+    color: #fff;
+    bottom:30px;
+    opacity: .7;
+    filter: alpha(opacity=70);
+    left: 50%;
+    margin-left: -25px;
+}
+.h_stoprle span a{
+	margin-top:9px;
+	color:#fff;
+	font-size:12px;
+}
+.h_stoprles{
+	width:50%;
+	height:100%;
+	background:#555;
+	position:relative;
+}
+.h_stopop{
+	position: absolute;
+    left: 25px;
+    top: 25px;
+    right: 25px;
+    bottom: 25px;
+    border: 1px solid #fff;
+    padding: 60px 50px;
+    text-align: center;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.h_stopop h3{
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+.h_stopop h4{
+    font-size: 16px;
+    color: #fff;
+}
+.h_styleLeft{
+    width: 50%;
+    position: relative;
+    height:300px;
+}
+.h_styleRight{
+    background: #d8a55f;
+    width:50%;
+    position: relative;
+    height:600px;
+}
+.h_stylebottom{
+    margin-bottom:50px;
+}
+.stylebtto{
+    position: absolute;
+    top: 85px;
+    left: 55px;
+}
+.stylebtto h3{
+    font-size: 36px;
+    color: #fff;
+}
+.stylebtto h4{
+    font-size: 20px;
+    color: #fff;
+}
+.h_ss{
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+    max-width: 100%;
+    position:absolute;
+    top:0;
+    right:0;
+}
+/*主体部分结束*/
+
+/*html, body {
+    position: relative;
+    height: 100%;
+}*/
+.h_alert{
+    position:absolute;
+    top:0;
+    left:0;
+    background:#000;
+    /*opacity:0.9;*/
+    width:100%;
+    height:100%;
+    z-index:10;
+    display:none;
+}
+.h_ln{
+    width:720px; 
+    height:510px;
+    padding:15px 35px;
+    background:#fff;
+    border:5px solid #fff;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin:-255px 0 0 -360px;
+    box-shadow: rgb(255, 255, 255) 0px 0px 5px;
+    border-radius:10px;
+    z-index:20;
+    box-sizing: border-box;
+}
+.h_fr{
+    width:100%;
+    text-align:center;
+    font-size: 25px;
+    color: #333;
+    font-family: "思源黑体 CN ExtraLight","Microsoft YaHei","Arial","宋体";
+    height:10%;
+}
+.h_xx{
+    float:right;
+    cursor:pointer;
+}
+
+
+.h_alert .swiper-wrapper{
+    width:100%;
+    height:100%;
+}
+.h_alert .swiper-container {
+    width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.h_alert .swiper-slide {
+    background-size: cover;
+    background-position: center;
+}
+.h_alert .gallery-top {
+    height: 70%;
+    width: 100%;
+}
+.h_alert .gallery-thumbs {
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+.h_alert .gallery-thumbs .swiper-slide {
+    width: 14%;
+    height:56px;
+}
+.h_alert .gallery-thumbs .swiper-slide-active {
+    opacity: 1;
+}

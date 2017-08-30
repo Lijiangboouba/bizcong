@@ -6,34 +6,43 @@ $(function(){
 })
 
 
-// 3D翻转效果
-$(function(){
-    $('.btn').click(function(){
-        $('.h_eventswiper').css({'transform-origin':'50% 50% -118px', 'transform': 'translate3d(0px, 0px, 0px) rotateX(90deg) rotateY(0deg)','transition-duration':' 0ms'})
-    })
-})
 
+// 路由跳转
 var app=angular.module('app',['ui.router']); 
 app.config(function($stateProvider,$urlRouterProvider){
     $urlRouterProvider.otherwise("/gywm");
+    // $urlRouterProvider.otherwise("/jrwm/jrwmInfo");
     $stateProvider.state('gywm',{
         url:'/gywm',
         templateUrl:'gywm.html'
-    })
-    .state('zcjy',{
+    }).state('zcjy',{
         url:'/zcjy',
         templateUrl:'zcjy.html'
-    })
-    .state('qyjs',{
+    }).state('qyjs',{
         url:'/qyjs',
         templateUrl:'qyjs.html'
-    })
-    .state('hydw',{
+    }).state('hydw',{
         url:'/hydw',
         templateUrl:'hydw.html'
-    })
-    .state('qyry',{
+    }).state('qyry',{
         url:'/qyry',
         templateUrl:'qyry.html'
+    }).state('qyfc',{
+        url:'/qyfc',
+        templateUrl:'qyfc.html'
+    }).state('jrwm',{
+        url:'/jrwm',
+        templateUrl:'jrwm.html',
+        controller:function ($state) {
+            $state.go('jrwm.jrwmInfo');
+        }
+    }).state('jrwm.jrwmInfo',{
+        url:'/jrwmInfo',
+        templateUrl:'jrwmInfo.html'
+    }).state('jrwm.jrwmInfo2',{
+        url:'/jrwmInfo2',
+        templateUrl:'jrwmInfo2.html'
     })
 })
+
+

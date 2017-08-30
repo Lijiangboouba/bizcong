@@ -1,0 +1,43 @@
+
+<div class="tabdd">
+	<div class="h_box">
+		<!-- small nav -->
+		<div class="h_pp clearfix">
+		 	<p class="h_h">
+		 		<a href="#">首页</a>
+			 	<a href="#">&gt;</a>
+			 	<a href="#">关于我们</a>
+			 	<a href="#">&gt;</a>
+			 	<a href="#">加入我们</a>
+			 	<a href="#">&gt;</a>
+			 	<a href="#" class="xh">销售</a>
+		 	</p>
+		</div>
+		<!-- small nav 结束 -->
+		<div class="h_titletab">
+			<h3>加入我们</h3>
+			<h4>JOIN US</h4>
+		</div>
+		<div class="h_jointab">
+			<a ui-sref=".jrwmInfo">销售 <i class="ms"></i></a>
+			<a ui-sref=".jrwmInfo2">研发 <i class="h_ya ms"></i></a>
+		</div>
+
+		<div ui-view></div>
+
+	</div>
+</div>
+<script type="text/javascript">	
+	$(function(){
+	    $('.h_jointab a').click(function(){
+	        $(this).css({'background':'#246fee','color':'#fff'}).siblings().css({'background':'#F2F2F5','color':'#666'});
+	        $(this).children().css('display','block').parent().siblings().children().css('display','none');
+	        var xhInner= $('.xh').html();
+	        if($('.h_jointab a:first-child')){
+	        	xhInner='销售'
+	        }else if($('.h_jointab a:last-child')){
+	        	xhInner='研发'
+	        }
+	    })
+	})	
+</script>

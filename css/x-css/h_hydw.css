@@ -94,6 +94,7 @@ body{
 .h_num{
 	width:100%;
 	/*background:Red;*/
+	margin-bottom:40px;
 }
 .h_num>div{
 	width:25%;
@@ -117,7 +118,7 @@ body{
     height: 100px;
     text-align:center;
 }
-#h_on,#h_fours{
+#h_on{
 	border-bottom:none;
 }
 #h_ones,#h_twos,#h_threes{

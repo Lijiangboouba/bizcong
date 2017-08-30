@@ -46,6 +46,9 @@ body{
 .h_nav_box:hover .h_select{
     color:#fff;
 }
+.h_language{
+    display:none;
+}
 .h_ul{
     height:auto;
     width:100%;

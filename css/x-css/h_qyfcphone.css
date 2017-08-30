@@ -1,0 +1,150 @@
+.h_box{
+	padding:0 20px;
+}
+.h_bannav,.h_pp{
+	display:none;
+}
+
+
+/*主体部分*/
+.h_stylecon{
+	/*height:300px;*/
+	overflow:hidden;
+}
+.h_sinLeft{
+	width:100%;
+	height:100%;
+	position:relative;
+	box-sizing: border-box;
+}
+.h_sinLefts{
+	/*height:300px;*/
+}
+.h_sinLeftss{
+	width:100%;
+	margin-bottom:2px;
+}
+.h_sinLeft>span{
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition:.5s;
+    box-sizing: border-box;
+}
+.h_sinLeft span img{
+	max-width: 100%;
+    height: auto;
+    width: 100%;
+    vertical-align: top;
+    transition: all ease 0.3s;
+}
+.h_sinLeft span img:hover{
+    transform: scale(1.1);
+    transition: all ease 0.3s;
+}
+.h_sinRight{
+	width:100%;
+	height:100%;
+	position:relative;
+}
+.h_stoprle{
+    height: 125px;
+    background: #27abff;
+    position: relative;
+    padding:30px 0 50px 0;
+    width:100%;
+    box-sizing: border-box;
+    text-align:center;
+    margin-bottom:1px;
+}
+.h_stoprlem{
+	padding:30px 0 50px 0;
+}
+.h_stoprle h3{
+    font-size: 18px;
+    color: #fff;
+}
+.h_stoprle i{
+    display: none;
+}
+.h_stoprle h4{
+    font-size:16px;
+    color: #fff;
+}
+.h_stoprle span{
+	display:block;
+    position: absolute;
+    color: #fff;
+    bottom:12px;
+    opacity: .7;
+    filter: alpha(opacity=70);
+    left: 50%;
+    margin-left: -25px;
+}
+.h_stoprle span a{
+	margin-top:9px;
+	color:#fff;
+	font-size:12px;
+}
+.h_stoprles{
+	width:100%;
+	height:100%;
+	background:#555;
+	position:relative;
+	margin-bottom:2px;
+}
+.h_stopop{
+    border: 1px solid #fff;
+    padding: 40px 0;
+    text-align: center;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.h_stopop h3{
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+    text-align:center;
+    font-weight: normal;
+}
+.h_stopop h4{
+    font-size: 16px;
+    color: #fff;
+}
+
+
+.h_styleLeft{
+    width: 100%;
+    position: relative;
+    /*height:300px;*/
+}
+.h_styleRight{
+    background: #d8a55f;
+    width:100%;
+    position: relative;
+    height:346px;
+}
+.stylebtto{
+    position: absolute;
+    top: 85px;
+    left: 18px;
+}
+.stylebtto h3{
+    font-size: 36px;
+    color: #fff;
+}
+.stylebtto h4{
+    font-size: 20px;
+    color: #fff;
+}
+
+.h_ss{
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+    max-width: 100%;
+    position:absolute;
+    top:0;
+    right:0;
+}
