@@ -32,12 +32,6 @@
 	    $('.h_jointab a').click(function(){
 	        $(this).css({'background':'#246fee','color':'#fff'}).siblings().css({'background':'#F2F2F5','color':'#666'});
 	        $(this).children().css('display','block').parent().siblings().children().css('display','none');
-	        var xhInner= $('.xh').html();
-	        if($('.h_jointab a:first-child')){
-	        	xhInner='销售'
-	        }else if($('.h_jointab a:last-child')){
-	        	xhInner='研发'
-	        }
 	    })
 	})	
 </script>

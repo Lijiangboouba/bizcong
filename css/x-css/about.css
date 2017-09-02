@@ -142,9 +142,13 @@ body{
 #h_lx{
 	border-right:none;
 }
+/*.h_tab li:first-child a{
+    background:#2f3133;
+    color:#fff;
+}*/
 .h_color{
-	color:#fff;
 	background:#2f3133;
+    color:#fff;
 }
 /*导航结束*/
 /*banner结束*/

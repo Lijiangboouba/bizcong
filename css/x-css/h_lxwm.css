@@ -1,0 +1,55 @@
+*{box-sizing: border-box;}
+.h_box{ 
+	width:1195px;
+	margin:0 auto;
+	position:relative;
+}
+.h_pp{
+	height:47px;
+	width:100%;
+}
+.h_h{
+	float:right;
+}
+.h_pp a{
+	color:#999999;
+	font:11px/47px 'Microsoft YaHei';
+}
+.h_mx{
+    padding: 45px 0 80px 0;
+    margin-bottom:50px;
+}
+.h_contactle,.h_contactri{
+	width:50%;
+}
+.h_contactle img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+.h_contactri{
+    padding-left: 35px;
+}
+.h_lxwm h3{
+	font-size: 30px;
+    color: #333333;
+    font-family: "思源黑体 CN ExtraLight","Microsoft YaHei","Arial","宋体";
+}
+.h_lxwm h4{
+    font-size: 15px;
+    color: #cccccc;
+    font-family: "思源黑体 CN ExtraLight","Microsoft YaHei","Arial","宋体";
+}
+.h_contacbox{
+    border-bottom: 1px solid #ccc;
+    padding: 30px 0;
+}
+.h_containcon .h_contacbox h3 {
+    font-size: 18px;
+    color: #333333;
+    margin-bottom: 15px;
+}
+.h_containcon .h_contacbox p {
+    font-size: 14px;
+    color: #666666;
+}

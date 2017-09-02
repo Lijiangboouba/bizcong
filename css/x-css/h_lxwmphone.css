@@ -1,0 +1,44 @@
+.h_bannav,.h_pp{
+	display:none;
+}
+*{box-sizing: border-box;}
+.h_box{ 
+	padding:0 10px;
+}
+.h_mx{
+    padding: 45px 0 80px 0;
+    margin-bottom:50px;
+}
+.h_contactle,.h_contactri{
+	width:100%;
+}
+.h_contactle img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+.h_contactri{
+    padding-left: 15px;
+    margin-top:20px;
+}
+.h_lxwm h3{
+	font-size: 18px;
+    color: #333333;
+    font-family: "思源黑体 CN ExtraLight","Microsoft YaHei","Arial","宋体";
+}
+.h_lxwm h4{
+    display:none;
+}
+.h_contacbox{
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0;
+}
+.h_containcon .h_contacbox h3 {
+    font-size: 18px;
+    color: #333333;
+    margin-bottom: 15px;
+}
+.h_containcon .h_contacbox p {
+    font-size: 14px;
+    color: #666666;
+}
