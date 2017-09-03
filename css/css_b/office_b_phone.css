@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* banner_b start*/
+.banner_b{
+    width: 100%;
+    height: 282px;
+    background: url("../../images/b_img/office_b_one.jpg")no-repeat center /cover;
+}
+/*banner_b end*/
+/*content_b*/
+.content_b{
+    width: 100%;
+    height: 950px;
+}
+.content_b_tit{
+    box-sizing: border-box;
+    padding: 0 20px;
+    width: 100%;
+    height: 81px;
+}
+.content_b_tit p{
+  display: none;
+}
+.content_b_tit h3{
+    width: 100%;
+    font-size: 16px;
+    color: #333333;
+    padding-top: 50px;
+    text-align: center;
+}
+.content_b_show{
+    box-sizing: border-box;
+    padding: 0 19px;
+    width: 100%;
+    height: 315px;
+    text-align: center;
+}
+.content_b_show img{
+    width: 230px;
+    height: 160px;
+
+}
+.content_b_show_right{
+    width: 100%;
+    height: 50px;
+}
+.content_b_show_right p{
+    font-size: 12px;
+    color: #666666;
+    line-height: 26px;
+}
+.content_b_show_right p span{
+    color: #333333;
+}
+.content_b_con{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+.content_b_con>p{
+    font-size: 12px;
+    color: #666666;
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+.content_b_con_radius{
+    width: 280px;
+    height: 90px;
+    margin: 20px auto 0;
+}
+.content_b_con_radius div{
+    width: 90px;
+    height: 90px;
+    border: 1px solid #96b465;
+    border-radius: 50%;
+    float: left;
+}
+.content_b_con_radius div h3{
+    font-size: 12px;
+    color: #686868;
+    line-height: 22px;
+    text-align: center;
+    padding-top: 26px;
+
+}
+.content_b_con_radius div h3 span{
+    font-size: 20px;
+    font-weight:bold;
+}
+.content_b_con_radius div h4{
+    font-size: 12px;
+    color: #686868;
+    line-height: 22px;
+    text-align: center;
+
+}
+/*content_b*/
+
+/*hope_b start*/
+.hope_b{
+    width: 100%;
+    height: 324px;
+    background: #85a84c;
+}
+.hope_b_con{
+    width: 100%;
+    height: 272px;
+    box-sizing: border-box;
+   padding: 0 20px;
+}
+.hope_b_con img{
+    display: none;
+}
+.hope_b_con h2{
+    font-size: 19px;
+    color: #ffffe3;
+    line-height: 58px;
+    font-weight: bold;
+}
+.hope_b_con p{
+    font-size: 14px;
+    color: #ffffe3;
+    line-height: 26px;
+}
+.hope_b_con p span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.hope_b_wall{
+    width: 100%;
+    height: 52px;
+    background: url("../../images/b_img/office_b_five.jpg") no-repeat center center/100% 52px;
+}
+/*hope_b end*/

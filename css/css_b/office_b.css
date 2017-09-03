@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* banner_b start*/
+.banner_b{
+    width: 100%;
+    height: 282px;
+    margin-top: 80px;
+    background: url("../../images/b_img/office_b_two.jpg")no-repeat center /cover;
+}
+/*banner_b end*/
+/*content_b*/
+.content_b{
+    width: 1195px;
+    height: 950px;
+    margin: 0 auto;
+}
+.content_b_tit{
+    width: 1195px;
+    height: 135px;
+}
+.content_b_tit p{
+    width: 100%;
+    height: 48px;
+    line-height: 48px;
+    font-size: 12px;
+    overflow: hidden;
+    color: #999999;
+}
+.content_b_tit p a{
+    color: #999999;
+    float: right;
+}
+.content_b_tit h3{
+    width: 100%;
+   font-size: 28px;
+    color: #333333;
+    padding-top: 51px;
+    text-align: center;
+}
+.content_b_show{
+    width: 100%;
+    height: 310px;
+}
+.content_b_show img{
+    width: 404px;
+    height: 290px;
+    float: left;
+}
+.content_b_show_right{
+    width: 790px;
+    height: 50px;
+    float: left;
+    margin-top: 60px;
+}
+.content_b_show_right p{
+    font-size: 12px;
+    color: #666666;
+    padding-left: 90px;
+    padding-right: 88px;
+    line-height: 19px;
+}
+.content_b_show_right p span{
+    color: #333333;
+}
+.content_b_con{
+    width: 100%;
+    height: 460px;
+}
+.content_b_con>p{
+    font-size: 12px;
+    color: #666666;
+    line-height: 25px;
+    padding-bottom: 43px;
+}
+.content_b_con_radius{
+    width: 1195px;
+    height: 143px;
+    margin-top: 20px;
+}
+.content_b_con_radius div{
+    width: 137px;
+    height: 137px;
+    border: 1px solid #96b465;
+    border-radius: 50%;
+    float: left;
+    margin-left: 260px;
+}
+.content_b_con_radius .content_b_con_node{
+    margin-left: 172px;
+}
+.content_b_con_radius div h3{
+    font-size: 14px;
+    color: #686868;
+    line-height: 25px;
+    text-align: center;
+    padding-top: 40px;
+
+}
+.content_b_con_radius div h3 span{
+    font-size: 28px;
+    font-weight:bold;
+}
+.content_b_con_radius div h4{
+    font-size: 14px;
+    color: #686868;
+    line-height: 25px;
+    text-align: center;
+
+}
+/*content_b*/
+
+/*hope_b start*/
+.hope_b{
+    width: 100%;
+    height: 535px;
+    background: #85a84c;
+}
+.hope_b_con{
+    width: 1195px;
+    height: 315px;
+    margin: 0 auto;
+    position: relative;
+}
+.hope_b_con img{
+    width: 476px;
+    height: 339px;
+    position: absolute;
+    top: -170px;
+    right: -130px;
+}
+.hope_b_con h2{
+    font-size: 24px;
+    color: #ffffe3;
+    padding-top: 97px;
+}
+.hope_b_con p{
+    font-size: 12px;
+    color: #ffffe3;
+    line-height: 45px;
+}
+.hope_b_con p span{
+    font-size: 24px;
+}
+.hope_b_wall{
+    width: 100%;
+    height: 220px;
+    background: url("../../images/b_img/office_b_five.jpg") no-repeat center center/100% 220px;
+}
+/*hope_b end*/
