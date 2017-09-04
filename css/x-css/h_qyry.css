@@ -100,7 +100,8 @@ body{
 	height:100%;
 	border-left:none;
 	box-sizing:border-box;
-	position:relative;
+	position:static;
+	overflow:hidden;
 }
 .h_cup{
 	position:absolute;
@@ -116,11 +117,13 @@ body{
 	padding: 65px 240px 65px 75px;
     height: 100%;
 }
-.h_eventRotate:first-child{
-	display:block;
+.focus .lb{
+	height:2640px; 
+	overflow:hidden;
 }
-.h_eventRotate{	
-	display:none;
+.focus .lb li{
+	height:240px; 
+	overflow:hidden;
 }
 .h_eventSlice h3{
 	margin-bottom:10px;
@@ -141,9 +144,9 @@ body{
 	border-radius:100%;
 	border:2px solid #fff;
 	position:absolute;
-	top:52px;
+	top:110px;
 	background:url(../../images/x-img/icon-eventprev.png) no-repeat #246fee;
-	left:-23px;
+	left:217px;
 }
 .h_btn2{
 	width:45px;
@@ -151,9 +154,9 @@ body{
 	border-radius:100%;
 	border:2px solid #fff;
 	position:absolute;
-	top:138px;
+	top:190px;
 	background:url(../../images/x-img/icon-eventnext.png) no-repeat #246fee;
-	left:-23px;
+	left:217px;
 }
 .h_bag{
 	background:url(../../images/x-img/event-bg.png) center center;

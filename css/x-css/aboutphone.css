@@ -17,6 +17,10 @@
 .h_header{
     background: #1f1f1f;
     height:50px;
+    position:fixed;
+    top:0;
+    z-index:9;
+    width:100%;
 }
 .h_box{
     width:100%;
@@ -108,13 +112,15 @@
     float:right;
     margin-top:25%;
     padding-right:15px;
+    box-sizing: border-box;
 }
 .h_language p{
-    width:48px;
+    width:40px;
     height:36px;
+    box-sizing:border-box;
 }
 .h_language p a{
-    width:48px;
+    width:40px;
     height:36px;
     display:block;
     text-align:center;
@@ -214,17 +220,17 @@
 }
 .Last .share .WB{
 	margin-right: 10px; 
-    background: url(../images/icon_share.png) 0px 0px no-repeat;
+    background: url(../../images/icon_share.png) 0px 0px no-repeat;
 }
 .Last .share .WB:hover{
-	background: url(../images/icon_share.png) 0px -66px no-repeat;
+	background: url(../../images/icon_share.png) 0px -66px no-repeat;
 }
 .Last .share .WX{
-    background: url(../images/icon_share.png) 0px -33px no-repeat;
+    background: url(../../images/icon_share.png) 0px -33px no-repeat;
     position: relative;
 }
 .Last .share .WX:hover{
-	background: url(../images/icon_share.png) 0px -99px no-repeat;
+	background: url(../../images/icon_share.png) 0px -99px no-repeat;
 }
 .Last .share .WXbox{
 	position: absolute;
