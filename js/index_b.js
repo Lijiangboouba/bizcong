@@ -1,22 +1,4 @@
-      //banner  starts
-	  var swiper = new Swiper('.swiper-container', {
-        pagination: '.swiper-pagination',
-        paginationClickable: true,
-        loop:true,
-        autoplay:1000,
-        autoplayDisableOnInteraction:false,
-        speed:1000
-    });
-	   var swiper = new Swiper('.swiper-container1', {
-        pagination: '.swiper-pagination',
-        paginationClickable: true,
-        direction: 'vertical',
-        loop:true,
-        autoplay:1000,
-        autoplayDisableOnInteraction:false,
-        speed:1000
-    });
-      //banner  ends
+    
 var productB=document.getElementById("product_b");
 var columnbTop=document.getElementById("column_b_top");
       // function wheel(upFn, downFn) {
@@ -64,7 +46,13 @@ var columnbTop=document.getElementById("column_b_top");
           }
       }
       $(function(){
-          //解决方案
+          //陆芒戮枚路陆掳赂
+           var bannerB=document.getElementById("banner_b");
+            var ua = navigator.userAgent;
+
+          if(ua.lastIndexOf('MSIE 9')!=-1){
+            $("#banner_b").remove()
+          }
           $(".scheme_b_left_con").find("div").click(function () {
               var i = $(this).index();
               $(this).addClass("scheme_b_left_con_show").siblings().removeClass("scheme_b_left_con_show");
@@ -84,9 +72,9 @@ var columnbTop=document.getElementById("column_b_top");
           $(".scheme_b_right_node_con a").mouseout(function () {
               $(this).attr("style","border:1px solid #ccc;color:#666666")
           })
-      //    解决方案 ends
+      //    陆芒戮枚路陆掳赂 ends
 
-      //   news 新闻中心
+      //   news 脨脗脦脜脰脨脨脛
           $(".news_b_con_right").children().eq(0).click(function (){
               var j = $(this).index();
               $(".l_span").eq(1).css("display","none");
@@ -142,9 +130,9 @@ var columnbTop=document.getElementById("column_b_top");
               $(this).children(0).eq(0).addClass("news_b_con_right_node_cont")
               $(".news_b_con_left").find("img").eq(j).addClass("news_b_con_left_img").siblings().removeClass("news_b_con_left_img");
           })
-      //    热点新闻 ends
+      //    脠脠碌茫脨脗脦脜 ends
 
-          //成功案列  starts
+          //鲁脡鹿娄掳赂脕脨  starts
           $('.works_b_con').find(".works_b_con_node").mouseover(function () {
               var i = $(this).index();
               $(this).children().eq(0).attr('style','bottom:0;transition:0.3s;');
@@ -159,8 +147,85 @@ var columnbTop=document.getElementById("column_b_top");
               var i = $(this).index();
               $(".scheme_b_phone_con_show").find("div").eq(i).addClass("scheme_b_phone_con_show_hide").siblings().removeClass("scheme_b_phone_con_show_hide");
           });
-          //成功案列  ends
+          //鲁脡鹿娄掳赂脕脨  ends
 
       })
 
+  //banner  starts
+       
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        loop:true,
+        autoplay:1000,
+        autoplayDisableOnInteraction:false,
+        speed:1000
+    });
+     var swiper = new Swiper('.swiper-container1', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        direction: 'vertical',
+        loop:true,
+        autoplay:1000,
+        autoplayDisableOnInteraction:false,
+        speed:1000
+    });
+     window.onload=function(){
+  //杩斿洖椤堕儴
 
+    //杩斿洖椤堕儴
+    // sidebar_left-ends
+    // leave starts
+    var falg = document.getElementById('falg_t');
+  var leave_t_content = document.getElementsByClassName('leave_t_content')[0];
+  var oI = falg.childNodes[0];
+  var k = true;
+  falg.onclick = function(){
+      if(k){
+          k=false;
+          leave_t_content.style.display = 'none';
+          oI.style.background='url(images/leave/nodeMax.png) no-repeat';
+      }else{
+          k=true;
+          leave_t_content.style.display = 'block';
+          oI.style.background='url(images/leave/nodeMin.png) no-repeat';
+      }
+  }
+
+}
+$(function(){
+  var ua=navigator.userAgent;
+  if(ua.lastIndexOf('Trident')!= -1){
+    var txtHolder=$("#txt").attr("placeholder");
+      var nameHolder=$("#name").attr("placeholder");
+      var phoneHolder=$("#phone").attr("placeholder");
+      var emialHolder=$("#emial").attr("placeholder");
+      var addHolder=$("#add").attr("placeholder");
+      $("#txt").val(txtHolder).addClass("hint");
+      $("#name").val(nameHolder).addClass("hint");
+      $("#phone").val(phoneHolder).addClass("hint");
+      $('#emial').val(emialHolder).addClass("hint");
+      $('#add').val(addHolder).addClass("hint");
+     function change(ele,text){
+        $(ele).focus(function(){
+            if($(this).val() == text){
+                $(this).val("").removeClass("hint");
+            }
+            return false;
+        }).blur(function(){
+            if($(this).val().trim() === ""){
+                $(this).val(text).addClass("hint");
+            }
+            return false;
+        });
+     }
+     change("#txt",txtHolder);
+     change("#name",nameHolder);
+     change("#phone",phoneHolder);
+     change("#emial",emialHolder);
+     change("#add",addHolder);
+
+  }    
+
+})
+      //banner  ends
