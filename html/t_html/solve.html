@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+	<meta content="yes" name=" apple-mobile-web-app-capable">
+	<meta content="telephone=no" name="format-detection">
+	<meta name="applicable-device" content="pc,mobile">
+	<title>解决方案</title>
+	<link rel="stylesheet" href="../../css/reset.css" >
+	<link href="../../css/pc_common.css" type="text/css" rel="stylesheet" media="screen and (min-width:769px)">
+    <link href="../../css/phone_common.css" type="text/css" rel="stylesheet" media="screen and (max-width:768px)">
+	<script src="../../js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="../../js/mobile-util.js"></script>
+     <script src="../../js/angular.min.js"></script>
+    <script src="../../js/angular-ui-router.js"></script>
+    <style type="text/css" media="screen and (max-width:768px)">
+        #tel{
+            display:none;
+        }
+    </style>
+</head>
+<body>
+<div class="h_header">
+    <div class="h_box clearfix">
+        <div class="h_img left">
+            <a href="#"><img src="../../images/logo.png" alt="会畅通讯" class="h_meeting"></a>
+        </div>
+        <!-- 导航 -->
+        <div class="h_nav left clearfix">
+            <div class="h_nav_box left">
+                <a href="#" class="h_select">BizConf云会议</a>
+                <ul class="h_ul">
+                    <li><a href="#" id="h_video">视频会议</a></li>
+                    <li><a href="#">电话会议</a></li>
+                    <li><a href="#">网络直播</a></li>
+                    <li><a href="#">网络会议</a></li>
+                </ul>
+            </div>
+            <div class="h_nav_box left">
+                <a href="#" class="h_select">解决方案</a>
+                <ul class="h_ul">
+                    <li><a href="#">全球</a></li>
+                    <li><a href="#">硬件扩展</a></li>
+                    <li><a href="#">HR远程通讯</a></li>
+                    <li><a href="#">金融行业</a></li>
+                    <li><a href="#">零售行业</a></li>
+                    <li><a href="#">医疗</a></li>
+                </ul>
+            </div>
+            <div class="h_nav_box left">
+                <a href="works.html" class="h_select">成功案例</a>
+                <ul class="h_ul">
+                    <li><a href="works.html">全部案例</a></li>
+                    <li><a href="works.html" id="h_video">视频会议</a></li>
+                    <li><a href="works.html">电话会议</a></li>
+                    <li><a href="works.html">网络直播</a></li>
+                    <li><a href="works.html">网络会议</a></li>
+                </ul>
+            </div>
+            <div class="h_nav_box left">
+                <a href="#" class="h_select">服务与支持</a>
+                <ul class="h_ul">
+                    <li><a href="#">通讯3.0咨询</a></li>
+                    <li><a href="#">售后服务标准</a></li>
+                    <li><a href="#">申请试用</a></li>
+                    <li><a href="#">下载中心</a></li>
+                    <li><a href="#">投诉与建议</a></li>
+                    <li><a href="#">科普知识</a></li>
+                </ul>
+            </div>
+            <div class="h_nav_box left">
+                <a href="#" class="h_select">新闻动态</a>
+                <ul class="h_ul">
+                    <li><a href="#">媒体报道</a></li>
+                    <li><a href="#">公司新闻</a></li>
+                    <li><a href="#">BBC俱乐部</a></li>
+                </ul>
+            </div>
+            <div class="h_nav_box left">
+                <a href="#" class="h_select">关于我们</a>
+                <ul class="h_ul">
+                    <li><a href="#">总裁寄语</a></li>
+                    <li><a href="#">企业介绍</a></li>
+                    <li><a href="#">行业地位</a></li>
+                    <li><a href="#">企业荣耀</a></li>
+                    <li><a href="#">企业风采</a></li>
+                    <li><a href="#">加入我们</a></li>
+                    <li><a href="#">联系我们</a></li>
+                </ul>
+            </div>
+            <div class="h_nav_box left">
+                <a href="#" class="h_select">投资者关系</a>
+                <ul class="h_ul">
+                    <li><a href="#">公司公告</a></li>
+                    <li><a href="#">章程制度</a></li>
+                    <li><a href="#">股票信息</a></li>
+                </ul>
+            </div>
+            <div class="h_nav_box left">
+                <a href="office_b.html" class="h_select">绿色办公室</a>
+                <ul class="h_ul"></ul>
+            </div>
+            <!-- 翻译 -->
+            <div class="h_language left clear">
+                <p class="left"><a href="#" id="bt1">CN</a></p>
+                <P class="left"><a href="#" id="bt2"> EN</a></P>
+            </div>
+        </div>
+        <!-- 导航结束 	 -->
+        <div class="right h_tel" id="tel">
+            <a href="#" title="400-062-1818"><img src="../../images/tel.png" alt="会畅通讯咨询电话"></a>
+        </div>
+        <!-- 头部按钮 -->
+        <div class="h_pic right">
+            <p></p>
+            <p class="h_twop"></p>
+            <p></p>
+        </div>
+        <!-- 头部按钮结束 -->
+    </div>
+</div>
+<!-- content start -->
+<div ui-view></div>
+<!-- content end -->
+
+<!-- side column-nav    _stars -->
+<div class="column_b">
+    <div class="column_b_wx">
+        <div class="column_b_wx_con column_b_show"><p>在线咨询</p></div>
+    </div>
+    <div class="column_b_phone">
+        <div class="column_b_phone_con column_b_show"><p>400-062-1818</p></div>
+    </div>
+    <div class="column_b_search">
+        <div class="column_b_search_con column_b_show"><p>在线试用</p></div>
+    </div>
+    <div class="column_b_top" id="column_b_top">
+        <div class="column_b_top_con .column_b_show"></div>
+    </div>
+    <div class="column_b_tel">
+        <a href="#" class="icon"><img src="../../images/icon.png"></a>
+        <p class="online"><a href="#">在线咨询</a></p>
+    </div>
+</div>
+<!-- side column-nav    _end-->
+<!--leave_t _starts-->
+<div class="leave_t">
+    <div class="leave_t_top clearfix">
+        <span class="leave_t_title">请您留言</span>
+        <span id="falg_t"><i class="leave_t_close"></i></span>
+    </div>
+    <form>
+        <div class="leave_t_content clearfix">
+            <div class="leave_t_con">
+                <textarea placeholder="请在此输入留言内容，我们会尽快与您联系。（必填）"  id='txt'></textarea>
+            </div>
+            <div class="leave_t_name">
+                <span class="nodeName_t"></span><input type="text" id='name' placeholder="姓名">
+            </div>
+            <div class="leave_t_name">
+                <span class="nodephone_t"></span><input type="text" placeholder="电话（必填）" id='phone'>
+            </div>
+            <div class="leave_t_name">
+                <span class="nodemail_t"></span><input type="text" placeholder="邮箱" id='emial'>
+            </div>
+            <div class="leave_t_name">
+                <span class="nodelocation"></span><input type="text" placeholder="地址" id='add'>
+            </div>
+            <div class="leave_t_send">
+                发送
+            </div>
+        </div>
+    </form>
+</div>
+<!--leave_t end  -->
+
+
+<!-- 尾部开始 -->
+<div class='footer'>
+    <div class='footerNav'>
+        <div>
+            <a href="">BizConf云会议</a>
+            <ul>
+                <li>
+                    <a href="">视频会议</a>
+                </li>
+                <li>
+                    <a href="">电话会议</a>
+                </li>
+                <li>
+                    <a href="">网络直播</a>
+                </li>
+                <li>
+                    <a href="">网络会议</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <a href="">解决方案</a>
+            <ul>
+                <li>
+                    <a href="">全球</a>
+                </li>
+                <li>
+                    <a href="">硬件扩展</a>
+                </li>
+                <li>
+                    <a href="">HR远程通讯</a>
+                </li>
+                <li>
+                    <a href="">金融行业</a>
+                </li>
+                <li>
+                    <a href="">零售行业</a>
+                </li>
+                <li>
+                    <a href="">医疗</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <a href="">成功案例</a>
+            <ul>
+                <li>
+                    <a href="">全部案例</a>
+                </li>
+                <li>
+                    <a href="">视频会议</a>
+                </li>
+                <li>
+                    <a href="">电话会议</a>
+                </li>
+                <li>
+                    <a href="">网络直播</a>
+                </li>
+                <li>
+                    <a href="">网络会议</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <a href="">服务与支持</a>
+            <ul>
+                <li>
+                    <a href="">通讯3.0资讯</a>
+                </li>
+                <li>
+                    <a href="">售后服务标准</a>
+                </li>
+                <li>
+                    <a href="">申请使用</a>
+                </li>
+                <li>
+                    <a href="">下载中心</a>
+                </li>
+                <li>
+                    <a href="">投诉与建议</a>
+                </li>
+                <li>
+                    <a href="">科普知识</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <a href="">新闻动态</a>
+            <ul>
+                <li>
+                    <a href="">媒体报道</a>
+                </li>
+                <li>
+                    <a href="">公司新闻</a>
+                </li>
+                <li>
+                    <a href="">BBC俱乐部</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <a href="">关于我们</a>
+            <ul>
+                <li>
+                    <a href="">总裁寄语</a>
+                </li>
+                <li>
+                    <a href="">企业介绍</a>
+                </li>
+                <li>
+                    <a href="">行业地位</a>
+                </li>
+                <li>
+                    <a href="">企业荣耀</a>
+                </li>
+                <li>
+                    <a href="">企业风采</a>
+                </li>
+                <li>
+                    <a href="">加入我们</a>
+                </li>
+                <li>
+                    <a href="">联系我们</a>
+                </li>
+            </ul>
+        </div>
+        <div class='Last'>
+            <a href="">绿色办公室</a>
+            <p>400-062-1818
+                <i>©2006-2018 All Right Reserved</i>
+            </p>
+            <div class='share'>
+                <a href="javascript:;" class='WX right'>
+                    <div class="WXbox">
+                        <img src="../../images/WXewm.png">
+                    </div>
+                </a>
+                <a href="javascript:;" class='WB right'></a>
+            </div>
+        </div>
+        <div class="mask">
+            <span class='FooterClose'><img src="../../images/WXclose.png"></span>
+            <h3>会畅通讯官方账号</h3>
+            <img src="../../images/WXerm2.jpg">
+            <p>打开微信，点击底部的“发现”，使用“扫一扫”即可关注会畅通讯</p>
+        </div>
+    </div>
+    <p class="footerBottom">
+        上海会畅通讯股份有限公司 版权所有 <a href="http://www.miitbeian.gov.cn">沪ICP备11034277号</a> Copyright © 2006-2018 All Right Reserved
+    </p>
+</div>
+<!-- 尾部结束 -->
+<script type="text/javascript" src="../../js/test_common.js"></script>
+<script type="text/javascript" src="../../js/scroll_b.js"></script>
+<script src="../../js/js_b/leave_b.js"></script>
+<script type="text/javascript" src='../../js/js_t/router-t-two.js'></script>
+</body>
+</html>

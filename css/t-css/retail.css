@@ -1,0 +1,368 @@
+@charset "utf-8";
+
+/*          公用样式               */
+
+.comWidth {
+	width: 1194px;
+	margin:0 auto;
+	/*overflow: hidden;*/
+}
+
+.t-fl {
+	float: left;
+}
+.t-fr {
+	float: right;
+}
+body {
+	overflow-x: hidden;
+}
+
+/*              头部banner             */
+
+
+.t-bannerBar {
+	width: 100%;
+	height: 389px;
+	background-image: url(../../images/t-img/global/t-banner.jpg);
+	background-repeat: no-repeat;
+	position: relative;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+/*       头部导航          */
+
+.t-navBar {
+	width: 1194px;
+	position: absolute;
+	bottom: 0;
+	/*background-color: red;*/
+}
+.t-navBar ul {
+	margin-right: -1px;
+}
+.t-navBar ul li a{
+	width: 100%;
+	display: inline-block;
+	color: #666666;
+	background-color: #fff;
+}
+.t-navBar ul li {
+	text-align: center;
+	font-size: 12px;
+	float: left;
+	height: 55px;
+	line-height: 55px;
+	border-right: 1px solid #ccc;
+	box-sizing: border-box;
+	color: #666666;
+}
+.t-navBar ul li a:hover{
+	color: #fff;
+	background-color: #2f3133;
+}
+.t-navBar ul li .t-focus{
+	color: #fff;
+	background-color: #2f3133;
+}
+.global {
+	width: 113px;
+}
+.hardware {
+	width: 223px;
+}
+.hr {
+	width: 303px;
+}
+.financial {
+	width: 223px;
+}
+.retail {
+	width: 223px;
+}
+.medical {
+	width: 110px;
+	border: none;
+}
+
+/****************** guide *******************/
+.t-guideBar {
+	width: 100%;
+	/*background-color: red;*/
+	margin-top: 95px;
+}
+.t-navmin {
+	font-size: 12px;
+	color: #a699b3;
+	float: right;
+	margin-top: -80px;
+}
+.t-guide-title {
+	font-size: 28px;
+	color: #333;
+	text-align: center;
+	
+}
+.t-guideBar h2 {
+	font-size: 14px;
+	color: #686868;
+	margin-top: 80px;
+	text-align: center;
+}
+
+.t-guide-con {
+	margin-top: 105px;
+}
+.t-guide-con ul {
+	margin-right: -150px;
+}
+.t-guide-con ul li {
+	width: 145px;
+	height: 145px;
+	box-sizing: border-box;
+	border: 1px solid #d7d7d7;
+	border-radius: 50%;
+	text-align: center;
+	color: #6f6f74;
+	font-size: 15px;
+	float: left;
+	margin: 0 130px;
+}
+.t-guide-con ul li p {
+	width: 50px;
+	height: 50px;
+	background-image: url(../../images/t-img/retail/t-icon-retail.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin: 25px auto;
+	margin-bottom: 30px;
+}
+.t-more {
+	background-position: 0 0;
+}
+.t-rapid {
+	background-position: 0 -50px;
+}
+.t-high {
+	background-position: 0 -100px;
+}
+/*new*/
+
+.t-newBar {
+	background-image: url(../../images/t-img/retail/t-retail-wrap2-bg.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding: 50px 0;
+	margin-top: 130px;
+}
+.t-newBar h4 {
+	font-size: 15px;
+	color: #333;
+	text-align: center;
+	
+}
+
+.t-newBar h4 span{
+	font-size: 48px;
+	color: #333;
+}
+/*解决方案 solve*/
+.t-solveBar {
+	margin-top: 110px;
+}
+.t-solve-tit {
+	font-size: 28px;
+	color: #333;
+	text-align: center;
+}
+.t-solve-tcon {
+	margin-top: 80px;
+}
+.t-solve-tcon-left {
+	width: 597px;
+	height: 483px;
+	background-image: url(../../images/t-img/retail/t-retail-pic1.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	
+}
+.t-solve-tcon-right {
+	width: 597px;
+	height: 483px;
+	box-sizing: border-box;
+	background-color: #3c3a3a;
+	padding: 60px 60px 0 60px;
+}
+.t-solve-tcon-right h1 {
+	font-size: 20px;
+	color: #fff;
+}
+.t-solve-tcon-right h2 {
+	font-size: 16px;
+	color: #fff;
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+.t-solve-tcon-right ul li {
+	font-size: 12px;
+	color: #d4d3d3;
+	line-height: 25px;
+	list-style: disc;
+}
+.t-solve-tcon-right ul  {
+	padding-left: 15px;
+}
+.t-solve-mcon {
+	margin-top: 10px;
+}
+.t-solve-mcon-left {
+	width: 597px;
+	height: 345px;
+	background-image: url(../../images/t-img/retail/t-retail-pic2.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	
+}
+.t-solve-mcon-right {
+	width: 597px;
+	height: 345px;
+	box-sizing: border-box;
+	background-color: #246fee;
+	padding: 60px 60px 0 60px;
+}
+.t-solve-mcon-right h1 {
+	font-size: 20px;
+	color: #fff;
+}
+.t-solve-mcon-right h2 {
+	font-size: 16px;
+	color: #fff;
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+.t-solve-mcon-right ul li {
+	font-size: 12px;
+	color: #d4d3d3;
+	line-height: 25px;
+	list-style: disc;
+}
+.t-solve-mcon-right ul  {
+	padding-left: 15px;
+}
+.t-solve-bcon {
+	margin-top: 10px;
+}
+.t-solve-bcon-left {
+	width: 597px;
+	height: 220px;
+	background-image: url(../../images/t-img/retail/t-retail-pic3.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	
+}
+.t-solve-bcon-right {
+	width: 597px;
+	height: 220px;
+	box-sizing: border-box;
+	background-color: #70ad34;
+	padding: 60px 60px 0 60px;
+}
+.t-solve-bcon-right h1 {
+	font-size: 20px;
+	color: #fff;
+}
+.t-solve-bcon-right ul li {
+	font-size: 12px;
+	color: #d4d3d3;
+	line-height: 25px;
+	list-style: disc;
+}
+.t-solve-bcon-right ul  {
+	padding-left: 15px;
+}
+
+/*方案优势 advantage*/
+.t-advantage {
+	padding-top: 45px;
+	padding-bottom: 50px;
+}
+
+.t-advantage-tit {
+	font-size: 28px;
+	color: #333;
+	text-align: center;
+}
+.t-advantage-con {
+	margin-top: 85px;
+}
+.t-advantage-lcon {
+	width: 587px;
+	padding-right: 10px;
+}
+.t-advantage-lcon ul {
+	padding-left: 10px;
+}
+.t-advantage-lcon ul li {
+	color: #666666;
+	font-size: 12px;
+	list-style: disc;
+	line-height: 25px;
+	list-style-color: #2966ce; 
+}
+.t-advantage-rcon {
+	width: 576px;
+	height: 265px;
+	background-image: url(../../images/t-img/retail/t-retail-pic4.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

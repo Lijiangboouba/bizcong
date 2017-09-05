@@ -1,0 +1,264 @@
+@charset "utf-8";
+/*              头部banner             */
+
+html,body {
+	width: 100%;
+	overflow-x: hidden;
+}
+
+.t-bannerBar {
+	width: 100%;
+	height: 205px;
+	background-image: url(../../images/t-img/global/t-bannerphone.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	position: relative;
+}
+/*       头部导航          */
+
+.t-navBar {
+	display: none;
+}
+/****************** guide *******************/
+.t-guideBar {
+	width: 100%;
+	/*background-color: red;*/
+	margin-top: 35px;
+	padding-bottom: 30px;
+}
+.t-navmin {
+	display: none;
+}
+.t-guide-title {
+	font-size: 16px;
+	color: #333333;
+	text-align: center;
+	margin-bottom: 10px;
+	/*margin-top: 50px;*/
+}
+.t-guide-lcon {
+	width: 290px;
+	margin: 0 auto;
+	line-height: 25px;
+}
+.t-guide-lcon h1{
+	font-size: 12px;
+	color: #666666;
+	line-height: 25px;
+}
+.t-guide-lcon h2{
+	font-size: 12px;
+	color: #246fee;
+	line-height: 25px;
+	/*margin-top: 35*/
+}
+.t-guide-rcon {
+	width: 290px;
+	height: 165px;
+	background-image: url(../../images/t-img/medical/t-medical-pic1.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin: 15px auto;
+}
+.t-guide-tent {
+	width: 290px;
+	margin: 0 auto;
+}
+.t-guide-ltent h1 {
+	font-size: 16px;
+	color: #246fee;
+	font-weight: bold;
+	
+}
+.t-guide-ltent h2 {
+	font-size: 12px;
+	color: #dfe7fc;
+	font-weight: bold;
+	
+}
+.t-guide-rtent h1 {
+	font-size: 14px;
+	color: #333;
+	margin-bottom: 15px;
+}
+.t-guide-rtent ul {
+	padding-left: 15px;
+}
+.t-guide-rtent ul li {
+	font-size: 12px;
+	color: #666;
+	list-style: disc;
+	line-height: 25px;
+}
+/*解决方案 solve*/
+.t-solveBar {
+	/*margin-top: 110px;*/
+	background-color: #e9eff2;
+	padding-top: 20px;
+}
+.t-solve-tit {
+	font-size: 18px;
+	color: #333;
+	text-align: center;
+}
+.t-solveBar h2 {
+	width: 290px;
+	font-size: 14px;
+	color: #666;
+	/*text-align: center;*/
+	line-height: 25px;
+	margin: 0 auto;
+}
+.t-solve-tcon-left {
+	width: 290px;
+	/*height: 420px;*/
+	/*background-color: #fff;*/
+	/*box-sizing: border-box;*/
+	/*padding: 25px 45px 0 45px;*/
+	margin: 0 auto;
+}
+.t-solve-tcon-left h1 {
+	font-size: 16px;
+	color: #333;
+	text-align: center;
+	margin-bottom: 18px;
+}
+.t-solve-tcon-left ul {
+	padding-left: 15px;
+}
+.t-solve-tcon-left ul  li {
+	font-size: 12px;
+	color: #666;
+	line-height: 25px;
+	list-style: disc;
+}
+.t-solve-tcon-center {
+	width: 290px;
+	height: 313px;
+	margin: 0 auto;
+	background-image: url(../../images/t-img/medical/t-medical-pic2.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	
+}
+.t-solve-tcon-right {
+	width: 290px;
+	/*height: 420px;*/
+	/*background-color: #fff;*/
+	/*box-sizing: border-box;*/
+	/*padding: 25px 45px 0 45px;*/
+	margin: 15px auto;
+}
+.t-solve-tcon-right h1 {
+	font-size: 16px;
+	color: #333;
+	text-align: center;
+	margin-bottom: 18px;
+}
+.t-solve-tcon-right ul {
+	padding-left: 15px;
+}
+.t-solve-tcon-right ul  li {
+	font-size: 12px;
+	color: #666;
+	line-height: 25px;
+	list-style: disc;
+}
+.t-solve-bcon-left {
+	width: 290px;
+	height: 208px;
+	margin: 10px auto;
+	background-image: url(../../images/t-img/medical/t-medical-pic3.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.t-solve-bcon-center {
+	width: 290px;
+	/*height: 420px;*/
+	/*background-color: #fff;*/
+	/*box-sizing: border-box;*/
+	/*padding: 25px 45px 0 45px;*/
+	margin: 15px auto;
+}
+.t-solve-bcon-center h1 {
+	font-size: 16px;
+	color: #333;
+	text-align: center;
+	margin-bottom: 18px;
+}
+.t-solve-bcon-center ul {
+	padding-left: 15px;
+}
+.t-solve-bcon-center ul  li {
+	font-size: 12px;
+	color: #666;
+	line-height: 25px;
+	list-style: disc;
+}
+.t-solve-bcon-right {
+	width: 290px;
+	height: 208px;
+	margin: 10px auto 0;
+	background-image: url(../../images/t-img/medical/t-medical-pic4.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+/*new*/ 
+.t-new-con {
+	width: 230px;
+	height: 190px;
+	margin: 20px auto 50px;
+	background-image: url(../../images/t-img/medical/t-medical-pic5.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	
+}
+
+/*方案优势 advantage*/
+.t-advantage {
+	padding-bottom: 35px;
+}
+
+.t-advantage-tit {
+	display: none;
+}
+.t-advantage-con {
+	/*margin-top: 20px;*/
+	width: 290px;
+	margin: 0 auto;
+}
+.t-advantage-con ul {
+	padding-left: 15px;
+}
+.t-advantage-con ul li {
+	font-size: 13px;
+	color: #666666;
+	line-height: 25px;
+	list-style: disc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

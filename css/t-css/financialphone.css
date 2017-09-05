@@ -1,0 +1,240 @@
+@charset "utf-8";
+/*              头部banner             */
+
+html,body {
+	width: 100%;
+	overflow-x: hidden;
+}
+
+.t-bannerBar {
+	width: 100%;
+	height: 205px;
+	background-image: url(../../images/t-img/global/t-bannerphone.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	position: relative;
+}
+/*       头部导航          */
+
+.t-navBar {
+	display: none;
+}
+/****************** guide *******************/
+.t-guideBar {
+	width: 100%;
+	/*background-color: red;*/
+	margin-top: 35px;
+}
+.t-navmin {
+	display: none;
+}
+.t-guide-title {
+	font-size: 16px;
+	color: #333333;
+	text-align: center;
+	margin-top: 50px;
+}
+.t-guideBar h2 {
+	font-size: 13px;
+	color: #666;
+	text-align: center;
+	margin-top: 15px;
+}
+.t-guide-con {
+	width: 290px;
+	/*margin-top: 115px;*/
+	margin: 40px auto;
+	/*background-color: red;*/
+}
+.t-guide-con ul  {
+	margin-right: -5px;
+}
+.t-guide-con ul li {
+	width: 95px;
+	/*height: 95px;*/
+	border-left: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	box-sizing: border-box;
+	float: left;
+	/*margin-left: -1px;*/
+	text-align: center;
+	
+	/*margin-right: -1px;*/
+}
+
+.t-guide-con ul li p {
+	width: 45px;
+	height: 45px;
+	background-image: url(../../images/t-img/finnancial/t-icon-financial.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+.t-more {
+	background-position: 0 0;
+}
+.t-rapid {
+	background-position: 0 -45px;
+}
+.t-high {
+	background-position: 0 -90px;
+}
+.t-guideBar h3 {
+	width: 290px;
+	margin: 20px auto;
+	font-size: 13px;
+	color: #333;
+	line-height: 25px;
+}
+
+.t-solve-tit {
+	font-size: 16px;
+	color: #333333;
+	text-align: center;
+}
+.t-solve-bluetcon {
+	margin-top: 15px;
+	background-color: #2495dd;
+	overflow: hidden;
+	
+	/*position: relative;*/
+}
+.t-solve-bluetcon-right {
+	width: 240px;
+	height: 130px;
+	box-sizing: border-box;
+	border: 1px solid #4aa7e2;
+	margin: 25px auto;
+	padding-left: 15px;
+	padding-right: 20px;
+}
+.t-solve-bluetcon-right span {
+	font-size: 47px;
+	color: #fff;
+}
+
+.t-solve-bluetcon-right i {
+	font-size: 14px;
+	color: #fff;
+	margin-left: 20px;
+	font-weight: bold;
+}
+.t-solve-tcon-left h1 {
+	width: 290px;
+	margin: 15px auto;
+	font-size: 16px;
+	color: #333;
+	line-height: 30px;
+}
+
+.t-solve-tcon-left h2 {
+	display: none;
+}
+.t-solve-tcon-left h3 {
+	width: 290px;
+	margin: 0 auto;
+	font-size: 12px;
+	color: #333;
+	line-height: 25px;
+}
+.t-solve-tcon-right h1 {
+	width: 290px;
+	margin: 30px auto 0;
+	font-size: 16px;
+	color: #333;
+	line-height: 30px;
+}
+
+.t-solve-tcon-right h2 {
+	display: none;
+}
+.t-solve-tcon-right h3 {
+	width: 290px;
+	margin: 10px auto;
+	font-size: 12px;
+	color: #333;
+	line-height: 25px;
+}
+.t-solve-bluebcon {
+	margin-top: 15px;
+	background-color: #2495dd;
+	overflow: hidden;
+	
+	/*position: relative;*/
+}
+.t-solve-bluebcon-left {
+	width: 240px;
+	height: 130px;
+	box-sizing: border-box;
+	border: 1px solid #4aa7e2;
+	margin: 25px auto;
+	padding-left: 15px;
+	padding-right: 20px;
+}
+.t-solve-bluebcon-left span {
+	font-size: 47px;
+	color: #fff;
+}
+
+.t-solve-bluebcon-left i {
+	font-size: 14px;
+	color: #fff;
+	margin-left: 20px;
+	font-weight: bold;
+}
+
+.t-advantage-tit {
+	font-size: 16px;
+	color: #333333;
+	text-align: center;
+	margin-top: 50px;
+}
+.t-advantage-img {
+	width: 290px;
+	height: 112px;
+	background-image: url(../../images/t-img/finnancial/t-financial-pic3.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin: 15px auto;
+}
+.t-advantage-lcon,.t-advantage-rcon {
+	width: 270px;
+	margin: 0 auto;
+	color: #666666;
+}
+.t-advantage-lcon h1,.t-advantage-rcon h1 {
+	font-size: 13px;
+	/*color: #333;*/
+	/*border-left: 1px solid #246fee;*/
+	/*padding-left: 15px;*/
+	margin-bottom: 10px;
+}
+.t-advantage-lcon h1 span,.t-advantage-rcon h1 span {
+	color: #246fee;
+	margin-right: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

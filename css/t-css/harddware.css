@@ -1,0 +1,437 @@
+@charset "utf-8";
+
+/*          公用样式               */
+
+.comWidth {
+	width: 1194px;
+	margin:0 auto;
+	/*overflow: hidden;*/
+}
+
+.t-fl {
+	float: left;
+}
+.t-fr {
+	float: right;
+}
+body {
+	overflow-x: hidden;
+}
+
+/*              头部banner             */
+
+
+.t-bannerBar {
+	width: 100%;
+	height: 389px;
+	background-image: url(../../images/t-img/global/t-banner.jpg);
+	background-repeat: no-repeat;
+	position: relative;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+/*       头部导航          */
+
+.t-navBar {
+	width: 1194px;
+	position: absolute;
+	bottom: 0;
+	/*background-color: red;*/
+}
+.t-navBar ul {
+	margin-right: -1px;
+}
+.t-navBar ul li a{
+	width: 100%;
+	display: inline-block;
+	color: #666666;
+	background-color: #fff;
+}
+.t-navBar ul li {
+	text-align: center;
+	font-size: 12px;
+	float: left;
+	height: 55px;
+	line-height: 55px;
+	border-right: 1px solid #ccc;
+	box-sizing: border-box;
+	color: #666666;
+}
+.t-navBar ul li a:hover{
+	color: #fff;
+	background-color: #2f3133;
+}
+.t-navBar ul li .t-focus{
+	width: 100%;
+	display: inline-block;
+	color: #fff;
+	background-color: #2f3133;
+}
+.global {
+	width: 113px;
+}
+.hardware {
+	width: 223px;
+}
+.hr {
+	width: 303px;
+}
+.financial {
+	width: 223px;
+}
+.retail {
+	width: 223px;
+}
+.medical {
+	width: 110px;
+	border: none;
+}
+/****************** guide *******************/
+.t-guideBar {
+	width: 100%;
+	/*background-color: red;*/
+	margin-top: 95px;
+}
+.t-navmin {
+	font-size: 12px;
+	color: #a699b3;
+	float: right;
+	margin-top: -80px;
+}
+.t-guide-title {
+	font-size: 28px;
+	color: #333333;
+	text-align: center;
+}
+.t-guide-lcon {
+	width: 595px;
+}
+.t-guide-lcon h1 {
+	font-size: 28px;
+	color: #333333;
+	margin-top: 115px;
+}
+
+.t-guide-lcon h3 {
+	font-size: 15px;
+	color: #6f6a66;
+	margin-top: 30px;
+	line-height: 26px;
+} 
+.t-guide-rcon {
+	width: 550px;
+	height: 310px;
+	background-image: url(../../images/t-img/hardware/t-hardware-pic1.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin-top: 78px;
+}
+
+
+/*call*/
+.t-callBar {
+	width: 100%;
+	background-image: url(../../images/t-img/hardware/t-hardware-pic2-bg.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding-top: 88px;
+	padding-bottom: 85px;
+}
+.t-callBar h1 {
+	text-align: center;
+	color: #333333;
+	font-size: 30px;
+}
+.t-call-img {
+	/*margin-top: 105px;*/
+	width: 950px;
+	margin: 0 auto;
+	/*background-color: red;*/
+	display: flex;
+	justify-content: space-around;
+}
+
+.t-call-img dl dt {
+	width: 50px;
+	height: 50px;
+	background-image: url(../../images/t-img/hardware/t-icon-hardware.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin: 0 auto;
+	/*background-position: center;*/
+	
+}
+.t-call-img dl {
+	margin-top: 105px;
+	width: 95px;
+	text-align: center;
+}
+.t-call-img dl dd {
+	font-size: 15px;
+	color: #838a8b;
+	margin-top: 22px;
+	margin-bottom: 50px;
+	
+}
+.t-call-like {
+	background-position: 0 0;
+}
+
+.t-call-item {
+	background-position: 0 -50px;
+}
+.t-call-firm {
+	background-position: 0 -100px;
+}
+.t-call-form {
+	background-position: 0 -150px;
+}
+
+.t-callBar h2 {
+	color: #706871;
+	font-size: 14px;
+}
+/*bulid 构建项目*/
+
+.t-buildBar {
+	width: 100%;
+	background-color: #f5f8fa;
+	padding-bottom: 80px;
+}
+.t-build-title {
+	font-size: 30px;
+	color: #333333;
+	padding-top: 85px;
+	text-align: center;
+}
+.t-build-state {
+	padding-top: 50px;
+	font-size: 13px;
+	color: #666666;
+	line-height: 50px;
+	padding-left: 150px;
+	padding-right: 150px;
+	text-align: center;
+}
+.t-build-con {
+
+}
+
+.t-build-tcon-left {
+	width: 597px;
+	height: 285px;
+	background-image: url(../../images/t-img/hardware/t-hardware-pic4.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	
+}
+.t-build-tcon-right {
+	width: 597px;
+	height: 285px;
+	box-sizing: border-box;
+	padding: 0 48px;
+}
+.t-build-tcon-right h1{
+	font-size: 16px;
+	color: #333333;
+	margin-top: 50px;
+}
+.t-build-tcon-right h2{
+	font-size: 12px;
+	color: #333333;
+	margin-top: 45px;
+}
+.t-build-bcon-right {
+	width: 597px;
+	height: 285px;
+	background-image: url(../../images/t-img/hardware/t-hardware-pic5.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	
+}
+.t-build-bcon-left {
+	width: 597px;
+	height: 285px;
+	box-sizing: border-box;
+	padding: 0 48px;
+}
+.t-build-bcon-left h1{
+	font-size: 16px;
+	color: #333333;
+	margin-top: 50px;
+}
+.t-build-bcon-left h2{
+	font-size: 12px;
+	color: #333333;
+	margin-top: 45px;
+}
+.t-build-font {
+	font-size: 12px;
+	color: #666666;
+	margin-top: 25px;
+}
+/*value 创造价值*/
+.t-valuebar {
+	width: 100%;
+	padding-bottom: 70px;
+}
+.t-value-title {
+	font-size: 30px;
+	color: #333333;
+	padding-top: 85px;
+	text-align: center;
+}
+.t-value-state {
+	padding-top: 50px;
+	font-size: 13px;
+	color: #666666;
+	line-height: 50px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.t-value-con {
+	width: 100%;
+	height: 830px;
+	background-image: url(../../images/t-img/hardware/t-hardware-pic6.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	
+}
+/*letter*/
+
+.t-letterBar {
+	background-image: url(../../images/t-img/hardware/t-hardware-pic7.jpg)
+	;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding-top: 120px;
+	padding-bottom: 75px;
+}
+.t-letter {
+
+}
+
+.t-letter-left {
+	width: 580px;
+}
+.t-letter-lloge,.t-letter-rloge {
+	width: 82px;
+	height: 82px;
+	background-repeat: no-repeat;
+	background-image: url(../../images/t-img/hardware/t-icon-hardwarebottom.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.t-letter-lloge {
+	margin-left: 255px;
+	background-position: 0 0;
+}
+.t-letter-rloge {
+	margin-left: 255px;
+	background-position: 0 -82px;
+}
+.t-letter-licon {
+	width: 32px;
+	height: 23px;
+	background-image: url(../../images/t-img/hardware/t-icon-dot-t.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin-top: 18px;
+}
+.t-letter-ricon {
+	width: 32px;
+	height: 23px;
+	background-image: url(../../images/t-img/hardware/t-icon-dot-b.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin-top: 100px;
+}
+.t-letter-lfont {
+	width: 480px;
+	margin-left: 20px;
+	margin-top: 35px;
+	font-size: 12px;
+	color: #ffffff;
+}
+.t-letter-lfont h2 {
+	text-align: right;
+	margin-top: 35px;
+}
+
+.t-letter-rfont {
+	width: 480px;
+	margin-left: 20px;
+	margin-top: 35px;
+	font-size: 12px;
+	color: #ffffff;
+}
+.t-letter-rfont h2 {
+	text-align: right;
+	margin-top: 55px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

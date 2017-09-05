@@ -1,0 +1,241 @@
+@charset "utf-8";
+/*              头部banner             */
+
+html,body {
+	width: 100%;
+	overflow-x: hidden;
+}
+
+.t-bannerBar {
+	width: 100%;
+	height: 205px;
+	background-image: url(../../images/t-img/global/t-bannerphone.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	position: relative;
+}
+/*       头部导航          */
+
+.t-navBar {
+	display: none;
+}
+/****************** guide *******************/
+.t-guideBar {
+	width: 100%;
+	/*background-color: red;*/
+	margin-top: 35px;
+}
+.t-navmin {
+	display: none;
+}
+.t-guide-title {
+	font-size: 16px;
+	color: #333333;
+	text-align: center;
+	margin-top: 35px;
+}
+.t-guide-con {
+	width: 290px;
+	margin: 0 auto;
+}
+.t-guide-con h1 {
+	font-size: 16px;
+	color: #333333;
+	margin-top: 20px;
+}
+.t-guide-con h3 {
+	font-size: 13px;
+	color: #666666;
+	margin-top: 15px;
+}
+.t-guide-rcon {
+	width: 290px;
+	height: 165px;
+	background-image: url(../../images/t-img/hardware/t-hardware-pic1.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	
+}
+/*call */
+.t-callBar h1 {
+	font-size: 16px;
+	color: #666;
+	text-align: center;
+	margin-top: 35px;
+}
+.t-call-img {
+	width: 290px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+}
+.t-call-img dl dt {
+	width: 50px;
+	height: 50px;
+	background-image: url(../../images/t-img/hardware/t-icon-hardware.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin: 0 auto;
+	/*background-position: center;*/
+	
+}
+.t-call-img dl {
+	/*margin-top: 105px;*/
+	/*width: 95px;*/
+	text-align: center;
+	display: inline-block;
+	margin-top: 40px;
+}
+
+.t-call-img dl dd {
+	font-size: 14px;
+	color: #838a8b;
+	margin-top: 22px;
+	margin-bottom: 50px;
+	
+}
+
+.t-call-like {
+	background-position: 0 0;
+}
+
+.t-call-item {
+	background-position: 0 -50px;
+}
+.t-call-firm {
+	background-position: 0 -100px;
+}
+.t-call-form {
+	background-position: 0 -150px;
+}
+.t-callBar h2 {
+	width: 290px;
+	margin: 0 auto;
+	color: #706871;
+	font-size: 14px;
+}
+
+/*bulid 构建项目*/
+.t-build-title {
+	font-size: 16px;
+	color: #333;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.t-build-state {
+	width: 290px;
+	margin: 15px auto;
+	color: #706871;
+	font-size: 14px;
+}
+.t-build-tcon-left {
+	width: 290px;
+	height: 137px;
+	background-image: url(../../images/t-img/hardware/t-hardware-pic4.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin: 0 auto;
+	
+}
+.t-build-tcon-right {
+	width: 290px;
+	margin: 20px auto;
+}
+
+.t-build-tcon-right h1 {
+	font-size: 16px;
+	color: #333;
+}
+.t-build-tcon-right h2 {
+	font-size: 14px;
+	color: #333;
+}
+.t-build-bcon-right {
+	width: 290px;
+	height: 137px;
+	background-image: url(../../images/t-img/hardware/t-hardware-pic5.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin: 0 auto;
+	
+}
+.t-build-bcon-left {
+	width: 290px;
+	margin: 20px auto;
+}
+
+.t-build-bcon-left h1 {
+	font-size: 16px;
+	color: #333;
+}
+.t-build-bcon-left h2 {
+	font-size: 14px;
+	color: #333;
+}
+.t-build-font {
+	width: 290px;
+	margin: 0 auto;
+	font-size: 14px;
+	color: #666;
+}
+ /*value 创造价值*/
+ .t-value-title {
+ 	font-size: 16px;
+ 	color: #333;
+ 	text-align: center;
+ 	margin-top: 35px;	
+ }
+
+.t-value-state {
+	width: 290px;
+	margin: 15px auto;
+	font-size: 14px;
+	color: #666;
+}
+.t-value-con {
+	width: 290px;
+	height: 200px;
+	background-image: url(../../images/t-img/hardware/t-hardware-pic6.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin: 0 auto;
+	
+}
+/*letter*/
+.t-letterBar {
+	width: 100%;
+	background-image: url(../../images/t-img/hardware/t-hardware-pic7.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding-top: 15px;
+	padding-bottom: 30px;
+}
+.t-letter-lfont {
+	width: 290px;
+	margin: 0 auto;
+	font-size: 14px;
+	color: #fff;
+}
+.t-letter-lfont h2 {
+	text-align: right;
+	margin-top: 20px;
+}
+.t-letter-rfont {
+	width: 290px;
+	margin: 0 auto;
+	font-size: 14px;
+	color: #fff;
+	margin-top: 15px;
+}
+.t-letter-rfont h2 {
+	text-align: right;
+	margin-top: 20px;
+}

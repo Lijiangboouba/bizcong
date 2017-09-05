@@ -1,0 +1,396 @@
+@charset "utf-8";
+/*              头部banner             */
+
+html,body {
+	width: 100%;
+	overflow-x: hidden;
+}
+
+.t-bannerBar {
+	width: 100%;
+	height: 205px;
+	background-image: url(../../images/t-img/telmeeting/t-bannerphone.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	position: relative;
+}
+/*       头部导航          */
+
+.t-navBar {
+	display: none;
+}
+
+/*          内容content         */
+
+.t-video {
+	width: 100%;
+	/*overflow: hidden;*/
+	/*position: relative;*/
+	/*z-index: 10;*/
+	padding-bottom: 30px;
+}
+.t-navmin {
+	display: none;
+}
+.t-video-title {
+	width: 230px;
+	border-bottom: 1px solid #999999;
+	/*padding: 22px 0;*/
+	height: 50px;
+	
+	text-align: center;
+	margin: 77px auto 0;
+}
+.t-video-title h1 {
+	font-size: 16px;
+	color: #333333;
+}
+.t-video-title h2 {
+	display: inline-block;
+	font-size: 12px;
+	color:#999999;
+	padding-left: 12px;
+	padding-right: 12px;
+	margin-top: 18px;
+	background-color: #fff;
+	font-weight: bold;
+}
+.t-video-con {
+	margin-top: 24px;
+}
+.t-con-left {
+	width: 230px;
+	height: 255px;
+	background-image: url(../../images/t-img/telmeeting/t-meeting-pic4.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin: 0 auto;
+}
+.t-con-right {
+	/*width: 100%;*/
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 15px;
+	/*background-color: red;*/
+}
+.t-con-right h1 {
+	color: #757575;
+	font-size: 13px;
+	line-height: 30px;
+	/*margin-top: 25px;*/
+}
+.t-con-right-video {
+	margin-top: 10px;
+	width: 290px;
+	height: 160px;
+	/*background-color: red;*/
+	/*margin-top: 25px;*/
+	background-image: url(../../images/t-img/telmeeting/t-voice.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin: 0 auto;
+
+}
+.t-con-right-video video {
+	width: 290px;
+	height: 172px;
+}
+.t-con-right h2 {
+	font-size: 12px;
+	color: #333333;
+	margin-top: 15px;
+}
+
+.t-con-right-nav h3 {
+	font-size: 12px;
+	color: #666666;
+	margin-top: 15px;
+}
+.t-con-right-nav ul li {
+	font-size: 12px;
+	color: #666666;
+	/*margin-top: 25px;*/
+	list-style: disc;
+	line-height: 25px;
+	margin-left: 15px;
+}
+.t-con-right-font {
+	margin-top: 25px;
+}
+.t-con-right-font {
+	font-size: 12px;
+	color: #333333;
+}
+.t-con-right-font ul {
+	margin-top: 15px;
+}
+.t-con-right-font ul li{
+	font-size: 12px;
+	color: #666666;
+	/*margin-top: 15px;*/
+	line-height: 25px;
+}
+.t-con-right-font ul li i {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	vertical-align: middle;
+	margin-right: 16px;
+}
+.t-phone {
+	background-image: url(../../images/t-img/telmeeting/t-phone.png);
+}
+.t-biao {
+	background-image: url(../../images/t-img/telmeeting/t-biao.png);
+}
+.t-shou {
+	background-image: url(../../images/t-img/telmeeting/t-shou.png);
+}
+.t-con-right-font ul li span {
+	color: #2478f0;
+}
+
+/*   功能特点 trait  */
+.t-traitBar {
+	/*padding-top: 60px;*/
+	background-color: #f9f9f9;
+}
+.t-trait-font {
+	/*position: relative;*/
+	/*background-color: red;*/
+}
+
+.t-trait-font-left {
+	padding-top: 15px;
+	padding-left: 15px;
+}
+.t-trait-font-left h1{
+	font-size: 16px;
+	color: #333333;
+}
+.t-trait-font-left h2 {
+	display: none;
+}
+.t-trait-tbox {
+	padding-left: 15px;
+}
+.t-trait-tbox h1{
+	font-size: 16px;
+	color: #333333;
+}
+.t-trait-tbox h2{
+	display: none;
+}
+.t-trait-tbox h3{
+	display: none;
+}
+.t-trait-con {
+	width: 100%;
+	padding-left: 15px;
+	margin-top: 10px;
+	/*padding-bottom: 80px;*/
+
+}
+.t-trait-con-tleft {
+	width: 290px;
+	padding-top: 25px;
+	padding-left: 10px;
+	padding-right: 18px;
+	padding-bottom: 25px;
+	box-sizing: border-box;
+	background-color: #3a7ef1;
+	/*position: relative;*/
+}
+.t-trait-con-tleft h1 {
+	font-size: 18px;
+	color: #fffafe;
+}
+.t-trait-con-tleft ul {
+	margin-top: 10px;
+}
+.t-trait-con-tleft ul li {
+	font-size: 14px;
+	color: #fffafe;
+	line-height: 26px;
+}
+.t-trait-con-tmiddle {
+	width: 290px;
+	height: 205px;
+	background-image: url(../../images/t-img/telmeeting/t-meeting-pic1.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.t-trait-con-tright {
+	width: 290px;
+	padding-top: 25px;
+	padding-left: 10px;
+	padding-right: 18px;
+	padding-bottom: 25px;
+	box-sizing: border-box;
+	background-color: #65a724;
+	/*position: relative;*/
+}
+.t-trait-con-tright h1 {
+	font-size: 18px;
+	color: #fffafe;
+}
+.t-trait-con-tright ul {
+	margin-top: 10px;
+}
+.t-trait-con-tright ul li {
+	font-size: 14px;
+	color: #fffafe;
+	line-height: 26px;
+}
+.t-trait-con-bleft {
+	width: 290px;
+	height: 305px;
+	background-image: url(../../images/t-img/telmeeting/t-meeting-pic2.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	
+}
+.t-trait-con-bmiddle {
+	width: 290px;
+	padding-top: 25px;
+	padding-left: 10px;
+	padding-right: 18px;
+	padding-bottom: 25px;
+	box-sizing: border-box;
+	background-color: #1f1f1f;
+	position: relative;
+}
+.t-trait-con-bmiddle h1 {
+	font-size: 18px;
+	color: #fffafe;
+}
+.t-trait-con-bmiddle h2 {
+	color: #666666;
+	line-height: 26px;
+	font-size: 16px;
+	margin-bottom: 4px;
+}
+.t-trait-con-bright {
+	width: 290px;
+	height: 305px;
+	background-image: url(../../images/t-img/telmeeting/t-meeting-pic3.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+/*    应用 use    */
+.t-use {
+	width: 100%;
+	height: 550px;
+	background-image: url(../../images/t-img/meeting/mvb-bg.png);
+	/*background-repeat: repeat-x;*/
+	position: relative;
+	margin-top: 15px;
+}
+.t-use-bottom {
+	width: 100%;
+	height: 62px;
+	background-image: url(../../images/t-img/telmeeting/t-video-grass.png);
+	position: absolute;
+	bottom: 0;
+}
+.t-use-font h1{
+	/*display: inline-block;*/
+	font-size: 18px;
+	color: #333333;
+	text-align: center;
+	padding-top: 36px;
+	/*padding-left: 40px;
+	padding-right: 40px;*/
+	/*background-color: #ffffff;*/
+	
+}
+.t-use-font h2{
+	/*display: inline-block;*/
+	font-size: 18px;
+	color: #cccccc;
+	text-align: center;
+	font-weight: bold;
+	/*margin-top: 10px;*/
+
+}
+
+.t-use-font h3{
+	/*display: inline-block;*/
+	/*width: 300px;*/
+	/*height: 20px;*/
+	font-size: 12px;
+	color: #cccccc;
+	text-align: center;
+	/*padding-left: 10px;
+	padding-right: 10px;*/
+	/*background-color: #ffffff;*/
+	margin: 0px auto;
+}
+.t-use-left {
+	width: 140;
+	height: 365px;
+	margin: 0 auto;
+	background-image: url(../../images/t-img/telmeeting/t-phone-meeting-b.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+/*体验 expre*/
+
+.t-expreBar {
+	width: 100%;
+	background-color: #246fee;
+	padding-top: 33px;
+	padding-bottom: 30px;
+}
+.t-expreBar h1 {
+	font-size: 17px;
+	color: #ffffff;
+	font-weight:bold;
+	text-align: center;
+}
+.t-exprebtn {
+	width: 100px;
+	height: 30px;
+	box-sizing: border-box;
+	border: 1px solid #ffffff;
+	font-size: 16px;
+	text-align: center;
+	line-height: 30px;
+	margin: 20px auto;
+}
+.t-exprebtn a {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	color: #ffffff;
+}
+.t-exprebtn:hover a{
+	background-color: #fff;
+	color: #246fee;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,275 @@
+@charset "utf-8";
+/*              头部banner             */
+
+html,body {
+	width: 100%;
+	overflow-x: hidden;
+}
+
+.t-bannerBar {
+	width: 100%;
+	height: 205px;
+	background-image: url(../../images/t-img/global/t-bannerphone.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	position: relative;
+}
+/*       头部导航          */
+
+.t-navBar {
+	display: none;
+}
+/****************** guide *******************/
+.t-guideBar {
+	width: 100%;
+	/*background-color: red;*/
+	margin-top: 35px;
+}
+.t-navmin {
+	display: none;
+}
+.t-guide-title {
+	font-size: 17px;
+	color: #333333;
+	text-align: center;
+}
+.t-guide-lcon {
+	width: 290px;
+	margin: 0 auto;
+	/*background-color: green;*/
+}
+.t-guide-lcon h1 {
+	font-size: 16px;
+	color: #333333;
+	margin-top: 15px;
+}
+
+.t-guide-lcon ul {
+	font-size: 12px;
+	color: #666666;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+.t-guide-lcon ul li {
+	width: 60px;
+	float: left;
+	margin-right: 10px;
+}
+.t-guide-lcon ul li span {
+	font-size: 16px;
+	color: #666666;
+}
+
+.t-guide-lcon h2,h3 {
+	font-size: 13px;
+	color: #666666;
+}
+.t-guide-lcon h3 {
+	/*margin-top: 30px;*/
+	margin-bottom: 20px;
+}
+
+.t-guide-rcon {
+	width: 290px;
+	height: 138px;
+	background-image: url(../../images/t-img/global/t-global-pic1.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	/*margin-top: 64px;*/
+	margin-bottom: 35px;
+}
+/**************call*************/
+.t-callBar {
+	background-color: #f9f9f9;
+}
+.t-call-con {
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+.t-call-logo {
+	width: 150px;
+	height: 30px;
+	background-image: url(../../images/t-img/global/t-icon-intercal.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	/*margin-right: 105px;*/
+	margin-left: 15px;
+}
+.t-call-img {
+	display: none;
+	
+}
+.t-call-font{
+	width: 290px;
+	margin: 20px auto;
+	font-size: 14px;
+	color: #666666;
+	/*margin-left: 30px;*/
+	line-height: 25px;
+}
+/***************企业痛点pain************/
+
+.t-painBar {
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+.t-pain-left {
+	width: 290px;
+	/*height: 135px;*/
+	margin: 0 auto;
+	/*text-align: right;*/
+	/*box-sizing: border-box;*/
+	
+}
+
+.t-pain-left h1 {
+	font-size: 16px;
+	color: #333333;
+}
+.t-pain-left h2 {
+	display: none;
+}
+.t-pain-right {
+	width: 290px;
+	font-size: 13px;
+	color: #666666;
+	/*margin-top: 10px;*/
+	margin: 10px auto;
+}
+.t-pain-right h2  {
+	margin-top: 15px;
+}
+.t-pain-right h2 span{
+	color: #537cee;
+}
+/*************解决方案solve************ */
+ .t-solveBar {
+ 	/*background-image: url(../images/global/t-retail-wrap4-bg.jpg);
+ 	background-repeat: no-repeat;
+ 	-webkit-background-size: cover;
+ 	background-size: cover;*/
+ 	/*padding-top: 40px;*/
+ 	/*padding-bottom: 35px;*/
+ 	width: 290px;
+ 	margin: 0 auto;
+ }
+
+.t-solveBar h1 {
+	font-size: 16px;
+	color: #333333;
+}
+.t-solveBar h2 {
+	display: none;
+}
+.t-solveBar h3 {
+	font-size: 14px;
+	color: #666666;
+	margin-top: 20px;
+}
+.t-solveBar h4 {
+	font-size: 17px;
+	color: #333333;
+	margin-top: 30px;
+}
+.t-solveBar h4 span {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin-right: 15px;
+}
+.t-ie {
+	background-image: url(../../images/t-img/global/t-icon-globall1.png);
+	background-position: 0 0;
+	vertical-align: middle;
+}
+.t-xx {
+	background-image: url(../../images/t-img/global/t-icon-globall1.png);
+	background-position: 0 100%;
+	vertical-align: middle;
+}
+.t-solveBar h5 {
+	font-size: 14px;
+	color: #666666;
+	margin-top: 15px;
+	padding-left: 40px;
+}
+
+
+/*方案优势advantage*/
+.t-advantage {
+	padding-bottom: 35px;
+}
+
+.t-advantage h1{
+	font-size: 20px;
+	color: #766868;
+	text-align: center;
+	padding-top: 50px;
+}
+.t-advantage-bg {
+	width: 240px;
+	height: 95px;
+	background-image: url(../../images/t-img/global/t-global-pic2.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin: 0 auto;
+	
+}
+.t-advantage-font {
+	width: 240px;
+	margin: 0 auto;
+	padding-left: 20px;
+}
+.t-advantage p{
+	font-size: 13px;
+	color: #666666;
+	padding-left: 50px;
+	border-left: 1px solid #246fee;
+	margin-bottom: 5px;
+}
+/*.t-advantage-lfont {
+	margin-right: 195px;
+}
+.t-advantage-mfont {
+	margin-right: 220px;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
