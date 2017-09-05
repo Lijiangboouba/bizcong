@@ -104,6 +104,7 @@ body{
     margin-bottom: 15px;
     position: relative;
     display: block;
+    cursor:pointer;
 }
 .column_b_phone{
     width: 54px;
@@ -112,6 +113,7 @@ body{
     margin-bottom: 15px;
     position: relative;
     display: block;
+    cursor:pointer;
 }
 .column_b_search{
     width: 54px;
@@ -120,6 +122,7 @@ body{
     margin-bottom: 15px;
     position: relative;
     display: block;
+    cursor:pointer;
 }
 .column_b_top{
     width: 54px;
@@ -139,6 +142,10 @@ body{
 .column_b_wx_con p{
     padding-left: 54px;
     line-height: 54px;
+    color: #f3f8ff;
+    font-size: 17px;
+}
+.column_b_wx_con p a{
     color: #f3f8ff;
     font-size: 17px;
 }
@@ -280,7 +287,7 @@ input,textarea {
     width: 140px;
     height: 30px;
     line-height: 30px;
-    _overflow: hidden;
+    overflow: hidden;
     border: none;
     display: inline-block;
     font-size: 13.3px;
