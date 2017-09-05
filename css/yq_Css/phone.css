@@ -176,7 +176,7 @@ body{
     float: left;
     position: relative;
     padding-left: 15px;
-    margin-right: 27px;
+    margin-right:35px;
     text-align: center;
 }
 .ContentCUl .mrNone{
@@ -195,7 +195,7 @@ body{
 .ContentCUl li span{
     display: block;
     font-size: 12px;
-    color:#666;
+    color:#b3b3b3;
 }
 .FZOneContentC .imgFive img{
     max-width: 100%;
@@ -256,8 +256,8 @@ body{
 .ContentCUl li{
     position: relative;
     padding-left: 10px;
-    height: 35px;
-    line-height: 35px;
+    height: 20px;
+    line-height: 20px;
 }
 .ContentCUl li i{
     position: absolute;
@@ -270,7 +270,7 @@ body{
 }
 .ContentCUl li span{
     display: block;
-    font-size: 14px;
+    font-size: 10px;
     color:#666;
 }
 
@@ -384,7 +384,150 @@ body{
 /*申请使用结束*/
 
 /******************************************下载中心开始*****************************************/
-
+.Knowledge .title{
+    margin-top:45px;
+}
+.Knowledge .title h3{
+    text-align: center;
+    font-size: 18px;
+    color:#333;
+}
+.Knowledge .title p{
+    display: none;
+}
+.KnowTab{
+    padding:0 15px;
+    height:auto;
+    margin-bottom: 20px;
+}
+.KnowTab .TagTit{
+    width:100%;
+    height:47px;
+    margin:0 auto;
+}
+.KnowTab .TagTit li{
+    float: left;
+    width: 25%;
+    height: 42px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.KnowTab .TagTit li a{
+    display: block;
+    width:100%;
+    height:100%;
+    line-height: 40px;
+    text-align: center;
+    color: #333;
+    font-size: 14px;
+}
+.KnowTab .TagTit li .select{
+    background-color: #246fee;
+    color:#fff;
+}
+/*下载中心 tab切换内容*/
+.KnowTabCon{
+    padding:0 15px;
+    /*height:960px;*/
+    margin:0 auto;
+    overflow: hidden;
+}
+.KnowTabCon .Block{
+    display: block;
+}
+.TabConEach{
+    width:100%;
+    height:auto;
+    overflow: hidden;
+    display: none;
+}
+.Resources{
+    width:100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+.Resources h3{
+    margin:0 auto;
+    margin-bottom: 30px;
+    color: #626262;
+    text-align: left;
+}
+.Resources .ResourcesTwo{
+    width:100%;
+    /*height:310px;*/
+    height:auto;
+}
+.ResourcesTwo a{
+    display: block;
+    /*float: left;*/
+    width:100%;
+    min-height:125px;
+    /*padding:15px;*/
+    background-color: #f2f3f7;
+}
+.ResourcesTwo .ResourcesTwoTop{
+    margin-bottom: 40px;
+}
+.ResourcesTwo a:hover{    
+    background-color: #246fee;
+}
+.ResourcesTwo a>span{
+    display: inline-block;
+    width:24px;
+    height:26px;
+    margin:20px 0 10px 20px;
+    background:url('../../images/q_img/download.png') 0px 0px no-repeat;
+}
+.ResourcesTwo a div{
+    margin-left: 20px;
+}
+.ResourcesTwo a div p{
+    color:#666;
+    font-size: 15px;
+}
+.ResourcesTwo a div span{
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 14px;
+    color: #969799;
+}
+.ResourcesTwo .ResourcesSmall{
+    width:95%;
+}
+.ResourcesTwo .ResourcesSmall div>p{
+    font-size: 12px;
+}
+.ResourcesTwo .ResourcesSmall div>span{
+    font-size: 10px;
+}
+/*下载中心 tab切换内容样式 结束*/
+/*swiper轮播开始 */
+.KnowTabCon .swiper-container {
+    height: 310px;
+    margin:0 auto;
+    overflow:visible;
+    position: relative;
+}
+.KnowTabCon .swiper-wrapper{
+    position: absolute;
+    left:0;
+    top:0;
+    overflow: hidden;
+}
+.KnowTabCon .swiper-slide {
+    font-size: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+.KnowTabCon .swiper-button-prev{
+    display: none;
+}
+.KnowTabCon .swiper-button-next{
+   display: none;
+}
+/*swiper轮播结束 */
 /*下载中心*/
 
 /******************************************投诉与建议开始*****************************************/
@@ -500,6 +643,225 @@ body{
 }
 /*投诉与建议结束*/
 
+/******************************************科普知识开始*****************************************/
+.Science .ScienceCon{
+    /*height:392px;*/
+    padding: 30px 15px 0 15px;
+    position: relative;
+    margin:0 auto;
+}
+.Scon{
+    /*padding:0 15px;*/
+    margin:0 auto;
+    margin-bottom: 15px;
+    display: none;
+}
+.SconBlock{
+    display: block;
+}
+.Scon .SconEach{
+    padding: 15px 0;
+    border-bottom: 1px solid #e6efff;
+}
+.SconEach>img{
+    display: none;
+}
+.SconRightDetail{
+    display: block;
+}
+.SconRightDetail h3{
+    font-size: 16px;
+    color: #464646;
+    margin-bottom: 10px;
+    height: 24px;
+    overflow: hidden;
+}
+.SconRightDetail p{
+    width:100%;
+    height:32px;
+    font-size: 12px;
+    line-height: 17px;
+    color: #767676;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+.SconRight ul{
+    height:14px;
+}
+.SconRight ul li{
+    float: left;
+    height:12px;
+    overflow: hidden;
+}
+.SconRight ul li img{
+    width:10px;
+    float: left;
+}
+.SconRight li span{
+    font-size: 10px;
+    color: #767676;
+    float: left;
+}
+.SconRight li a{
+    font-size: 10px;
+    color: #767676;
+    padding-left:15px;
+    float: left;
+}
+.SconRight li a:hover {
+    color: #246fee;
+}
+.SconRightDate{
+    display: none;
+}
+/*页脚*/
+.PageWrap{
+    text-align: center;
+    padding: 10px 15px 30px 15px;
+}
+.PageFooter{
+    max-width: 100%;
+    display: inline-block;
+}
+.PageFooter a{
+    display: block;
+    width: 35px;
+    height: 40px;
+    margin-right: 10px;
+    border: 1px solid #e6e6e6;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+    cursor: pointer;
+    color:#000;
+    animation: none;
+    transition:none;
+}
+.PageFooter .Select{
+    background-color: #246fee ;
+    color:#fff;
+}
+.PageFooter .prev{
+    background-image:url('../../images/q_img/SPage.png');
+    background-position:  0px 2px;
+}
+.PageFooter .prev:hover{
+    background-position:  0px -78px;
+}
+.PageFooter .next{
+    background:url('../../images/q_img/SPage.png');
+    background-position:  0px -40px;
+}
+.PageFooter .next:hover{
+    background-position:  0px -120px;
+}
+.PageFooter a:hover{
+    background-color: #246fee ;
+    color:#fff;
+}
+/*科普知识 小分页 One*/
+.SeachMain{
+    padding:15px 15px 0;
+    margin:0 auto;
+    padding-bottom: 20px;
+}
+.SeachMain .title h3{
+    font-size:18px;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 12px;
+}
+.SeachMain .title .date{
+    width: 13%;
+    height:14px;
+    text-align: center;
+    margin: 0 auto;
+}
+.SeachMain .title ul{
+    height:14px;
+    padding: 10px 0;
+}
+.SeachMain ul li{
+    float: left;
+}
+.SeachMain li span{
+    font-size: 14px;
+    color: #767676;
+}
+.SeachMain li .date{
+    font-size: 12px;
+    color: #767676;
+    padding-left:15px;
+}
+.MainTextCon{
+    padding:15px 0;
+}
+.MainTextCon>p{
+    font-size: 14px;
+    color: #666666;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+.MainTextCon .TextBig{
+    font-weight: bold;
+}
+.MainTextCon .SImg{
+    display: block;
+    max-width:100% !important;
+    height:auto;
+    margin:0 auto;
+    margin-top:40px;
+    margin-bottom: 55px;
+}
+.MainTextBottom{
+    height:14px;
+    padding:15px 0;
+    margin:50px auto;
+}
+.MainTextBottom a{
+    display: block;
+    width:100%;
+    float: left;
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 10px;
+}
+.MainTextBottom a:hover{
+    color:#246fee;
+}
+/*科普知识结束*/
 
-
-
+/*新闻动态  */
+.NewsEvents{
+    width:100%;
+}
+.Newsbanner{
+    width:100%;
+    height:240px;
+    /*margin-top:50px;*/
+    background: url('../../images/q_img/NewsBanner.jpg');
+    background-size: cover;
+}
+/*新闻动态 导航*/
+.Newsbanner .box{
+    height:100%;
+    position: relative;
+}
+.NEnav{
+    display: none;
+}
+.MainTextCon .NewsImg{
+    display: block;
+    margin:0 auto;
+    width:100% !important;
+    height:auto !important;
+    margin-bottom: 30px;
+}
+/*公司新闻  img*/
+.MainTextCon .NewImg{    
+    display: block;
+    margin:0 auto;
+    width:100% !important;
+    height:auto !important;
+    margin-bottom: 30px;
+}

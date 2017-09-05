@@ -59,7 +59,6 @@ sure()
 
 $(function(){
 	var isMobileon = /mobi/i.test(navigator.userAgent.toLowerCase());
-	var n=0;
 	if (isMobileon) {
 		$('.WX').click(function(){
 			var ISnone=$(this).children().eq(0).css('display');

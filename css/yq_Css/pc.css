@@ -794,6 +794,295 @@ body{
 }
 /*投诉与建议结束*/
 
+/******************************************科普知识开始*****************************************/
+.Science .ScienceCon{
+    padding: 45px 0 0 0;
+    position: relative;
+    height:875px;
+    /*margin-bottom: 50px;*/
+}
+.Scon{
+    margin-bottom: 50px;
+    position: absolute;
+    top:0;
+    left:0;
+    display: none;
+}
+.SconBlock{
+    display: block;
+}
+.Scon .SconEach{
+    padding: 35px 0;
+    border-bottom: 1px solid #e6efff;
+}
+.SconEach>img{
+    width:390px;
+    height: 220px;
+    margin-right:24px;
+    float: left;
+    cursor: pointer;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+.SconEach .SconRight{
+    width:780px;
+    padding:50px 0 55px 0;
+    box-sizing: border-box;
+}
+.SconRightDetail{
+    display: block;
+    width: 80%;
+    float: left;
+}
+.SconRightDetail:hover h3{
+    color: #246fee;
+}
+.SconRightDetail h3{
+    font-size: 18px;
+    color: #464646;
+    margin-bottom: 15px;
+    height: 24px;
+    max-width: 100%;
+    overflow: hidden;
+}
+.SconRightDetail p{
+    font-size: 12px;
+    color: #767676;
+    margin-bottom: 8px;
+    height:30px;
+    overflow: hidden;
+}
+.SconRight ul {
+    width:80%;
+    height:12px;
+}
+.SconRight ul li{
+    float: left;
+    height:12px;
+}
+.SconRight li span{
+    font-size: 12px;
+    color: #767676;
+}
+.SconRight li a{
+    font-size: 12px;
+    color: #767676;
+    padding-left:15px;
+}
+.SconRight li a:hover {
+    color: #246fee;
+}
+.SconRightDate a{
+    display: block;
+    width:100%;
+}
+.SconRightDate .date{
+    text-align: center;
+    color: #757575;
+    font-size: 44px;
+}
+.SconRightDate .year{
+    text-align: center;
+    color: #757575;
+    font-size: 24px;
+}
+.SconRightDate a:hover{
+    color:#246fee;
+}
+/*.SconRight>p a:hover{
+    color:#246fee;
+}*/
+/*科普知识 小分页 One*/
+.SeachMain{
+    width:1195px;
+    margin:0 auto;
+    padding-bottom: 80px;
+}
+.SeachMain .title{
+    margin-top: 45px;
+}
+.SeachMain .title h3{
+    font-size:24px;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 12px;
+}
+.SeachMain .title .date{
+    width: 13%;
+    height:14px;
+    text-align: center;
+    margin: 0 auto;
+}
+/*.SeachMain .ulWrap{
+    width:100%;
+    height:16px;
+}*/
+.SeachMain .title ul{
+    width:13%;
+    height:14px;
+    margin:0 auto;
+}
+.SeachMain ul li{
+    float: left;
+}
+.SeachMain li span{
+    font-size: 12px;
+    color: #767676;
+}
+.SeachMain li .date{
+    font-size: 12px;
+    color: #767676;
+    padding-left:15px;
+}
+.MainTextCon{
+    padding-top:30px;
+}
+.MainTextCon>p{
+    font-size: 14px;
+    color: #666666;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+.MainTextCon .TextBig{
+    font-weight: bold;
+}
+.MainTextCon .SImg{
+    display: block;
+    margin:0 auto;
+    margin-top:50px;
+    margin-bottom: 80px;
+}
+.MainTextBottom{
+    width:80%;
+    height:14px;
+    margin:50px auto;
+}
+.MainTextBottom a{
+    display: block;
+    width:50%;
+    float: left;
+    font-size: 14px;
+    color: #666666;
+}
+.MainTextBottom a:hover{
+    color:#246fee;
+}
+.MainTextBottom .bb{
+    width:45%;
+    padding-left:15px;
+    border-left:1px #ccc solid;
+}
+/*页脚*/
+.PageWrap{
+    width:100%;
+    text-align: center;
+    padding-bottom: 80px;
+    /*margin-top: 50px;*/
+}
+.PageFooter{
+    max-width: 100%;
+    display: inline-block;
+}
+.PageFooter a{
+    display: block;
+    width: 35px;
+    height: 40px;
+    margin-right: 10px;
+    border: 1px solid #e6e6e6;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+    cursor: pointer;
+    color:#000;
+    animation: none;
+    transition:none;
+}
+.PageFooter .Select{
+    background-color: #246fee ;
+    color:#fff;
+}
+.PageFooter .prev{
+    background-image:url('../../images/q_img/SPage.png');
+    background-position:  0px 2px;
+}
+.PageFooter .prev:hover{
+    background-position:  0px -78px;
+}
+.PageFooter .next{
+    background:url('../../images/q_img/SPage.png');
+    background-position:  0px -40px;
+}
+.PageFooter .next:hover{
+    background-position:  0px -120px;
+}
+.PageFooter a:hover{
+    background-color: #246fee ;
+    color:#fff;
+}
+/*科普知识结束*/
 
 
-
+/*新闻动态  */
+.NewsEvents{
+    width:100%;
+}
+.Newsbanner{
+    width:100%;
+    height:287px;
+    margin-top:80px;
+    background-color: yellow;
+    background: url('../../images/q_img/NewsBanner.jpg') center no-repeat;
+}
+/*新闻动态 导航*/
+.Newsbanner .box{
+    height:100%;
+    position: relative;
+    margin-top: 80px;
+}
+.NEnav{
+    width:100%;
+    height:55px;
+    position: absolute;
+    bottom: 0px;
+    left:0;
+}
+.NEnav>a{
+    float: left;
+    width:33.333%;
+    height:100%;
+    text-align: center;
+    line-height: 55px;
+    color:#666;
+    font-size: 12px;
+    /*background-color: #fff;*/
+    border-right:1px #cccccc solid;
+    box-sizing: border-box;
+    background: rgba(255,255,255,0.9);
+}
+.NEnav>a:hover{
+    background-color: #2F3133;
+    color:#fff;
+}
+.NEnav>.default{
+    background-color: #2F3133;
+    color:#fff;
+}
+.MainTextCon .NewsImg{
+    display: block;
+    margin:0 auto;
+    width:500px;
+    margin-bottom: 30px;
+}
+/*公司新闻  img*/
+.MainTextCon .NewImg{    
+    display: block;
+    margin:0 auto;
+    width:500px;
+    height:375px;
+    margin-bottom: 30px;
+}
+.MainTextCon .NewImg2{    
+    display: block;
+    margin:0 auto;
+    margin-bottom: 30px;
+}
